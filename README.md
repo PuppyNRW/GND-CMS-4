@@ -13,4 +13,5 @@ This template should help get you started developing with Vue 3 in Vite. The tem
     },
 "eslint.validate": ["javascript", "vue"],
 ```
+
 # GND-CMS-4
