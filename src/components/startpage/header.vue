@@ -8,7 +8,7 @@ const nextEvent = new Date('2023-10-07T21:00:00');
 const { t, d } = useI18n();
 </script>
 <template>
-    <div class="h-screen bg-[url('/images/mainbackground1.webp')] bg-no-repeat bg-left-top bg-cover">
+    <div class="h-screen bg-[url('PUBLIC_DIR/images/mainbackground1.webp')] bg-no-repeat bg-left-top bg-cover">
         <h1 class="text-5xl text-center text-primary font-semibold mb-3 pt-28">{{ t('index.header.title') }}</h1>
         <div class="bg-black/50">
             <div class="p-8 flex flex-col items-center">
@@ -26,7 +26,7 @@ const { t, d } = useI18n();
                     </span>
                     <address>Knappenstr. 36<br>
                     46238 Bottrop</address>
-                    <img src="images/mxhead002.webp" alt="" class="hidden md:block absolute -bottom-20 -right-28 w-1/2 ">
+                    <img src="PUBLIC_DIR/images/mxhead002.webp" alt="" class="hidden md:block absolute -bottom-20 -right-28 w-1/2 ">
                 </div>
                 <p class="z-10"> {{$t('index.header.socialMedia')}}</p>
                 <div class="flex flex-row">
