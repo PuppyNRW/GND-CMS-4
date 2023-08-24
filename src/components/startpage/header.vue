@@ -2,6 +2,7 @@
 import { useI18n } from 'vue-i18n';
 import TelegramButton from '../TelegramButton.vue';
 import InstagramButton from '../InstagramButton.vue';
+import DetailsButton from '../DetailsButton.vue';
 
 const nextEvent = new Date('2023-10-07T21:00:00');
 
@@ -12,7 +13,7 @@ const { t, d } = useI18n();
         <h1 class="text-5xl text-center text-primary font-semibold mb-3 pt-28">{{ t('index.header.title') }}</h1>
         <div class="bg-black/50">
             <div class="p-8 flex flex-col items-center">
-                <p class="text-white text-justify">
+                <p class="text-white text-justify text-xl">
                     {{$t('index.header.subtitle')}}
                 </p>
                 <div class="bg-white md:w-1/2 text-center text-black flex flex-col rounded p-6 relative">
@@ -33,7 +34,9 @@ const { t, d } = useI18n();
                     <TelegramButton></TelegramButton>
                     <InstagramButton></InstagramButton>
                 </div>
+                <DetailsButton></DetailsButton>
             </div>
         </div>
     </div>
+    <hr class="border-secondary border-t-2 py-2">
 </template>

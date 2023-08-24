@@ -4,9 +4,13 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
-    <div class="min-h-screen bg-black font-outfit">
+    <div class="flex flex-col bg-black font-outfit min-h-screen">
         <Menu class="z-50 fixed top-0 left-0 w-full"></Menu>
-        <router-view class="z-0"></router-view>
-        <Footer></Footer>
+        <router-view class="flex-grow z-0"></router-view>
+        <Footer class="z-0"></Footer>
     </div>
 </template>
+
+<style>
+
+</style>
