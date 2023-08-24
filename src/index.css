@@ -9,7 +9,15 @@ body {
     height: 110vh;
 }
 
-a {
+.gndH1 {
+    @apply text-5xl font-bold text-center text-primary;
+}
+
+.gndBGBox {
+    @apply bg-black/50 p-3 md:px-10;
+}
+
+/* a {
     text-decoration: none;
     font-weight: 300;
 }
@@ -19,29 +27,10 @@ a:hover {
     border-bottom: 1px solid #ccff00;
 }
 
-/*** MENU STYLE ***/
-#menu {
-    z-index: 100;
-}
-
-#menu a {
-    text-decoration: none;
-    font-weight: 300;
-    color: #101010;
-}
-#menu a:link {
-    color: #101010;
-}
-#menu a:visited {
-    color: #101010;
-}
-#menu a:hover {
-    color: #101010;
-    border-bottom: 1px solid #101010;
-}
+/*** MENU STYLE ** */
 
 /*** Other LINK decorations ***/
-.no-link-decoration:hover {
+/* .no-link-decoration:hover {
     text-decoration: none;
     border-bottom: 0px;
 }
@@ -79,10 +68,10 @@ a:hover {
 #credits a:hover {
     color: #ccff00;
     border-bottom: 1px solid #dddddd;
-}
+} */
 
 /*** LINK BUTTON STYLES ***/
-.gndbtn-outline {
+/* .gndbtn-outline {
     color: #ccff00;
     border: 1px solid #6c757d;
     border-radius: 5px;
@@ -121,10 +110,10 @@ a:hover {
 .gndbtn:hover {
     background-color: #6c757d;
     color: white;
-}
+} */
 
 /*** MENU BUTTONS ***/
-.button-icon {
+/* .button-icon {
     font-size: 20px;
     color: #ccff00;
 }
@@ -144,7 +133,7 @@ a:hover {
     background-color: #6c757d;
     color: white;
 }
-
+*/
 .language-button {
     background-color: rgba(10, 10, 10, 0.8);
     color: #ccff00;
@@ -160,7 +149,7 @@ a:hover {
     background-color: #6c757d;
     color: white;
 }
-
+/*
 .language-position {
     position: relative;
     top: 15px;
@@ -191,10 +180,10 @@ a:hover {
     width: 300px;
     left: calc(100% - 310px);
     z-index: 100;
-}
+} */
 
 /*** PAGE STYLES ***/
-.uhd-display {
+/* .uhd-display {
 }
 
 .fullpage {
@@ -208,10 +197,10 @@ a:hover {
 
 .text-justified {
     text-align: justify;
-}
+} */
 
 /*** LOGO STYLES ***/
-.gndlogo-box {
+/* .gndlogo-box {
     width: 15vw;
 }
 
@@ -227,10 +216,10 @@ a:hover {
     height: auto;
     min-height: 140px;
     min-width: 140px;
-}
+} */
 
 /*** TITLE STYLES ***/
-.generic-title {
+/* .generic-title {
     font-weight: 300;
     font-size: calc(24px + 1.5vw);
     color: #ccff00;
@@ -259,10 +248,10 @@ a:hover {
 
 .zero-box {
     height: 0;
-}
+} */
 
 /*** OTHER STUFF ***/
-.span-item {
+/* .span-item {
     width: 100%;
 }
 
@@ -320,14 +309,14 @@ a:hover {
     to {
         transform: translate3d(0, -25px, 0);
     }
-}
+} */
 
 /*** STYLES FOR TESTING PURPOSE, FOR DEVELOPMENT OR NOT REALLY IN USE ***/
 
 /*** SCREEN SIZE RELATED STYLING PARAMETERS PER ELEMENT ***/
 /*** Mobile screens ***/
 @media screen and (min-width: 320px) and (max-width: 639px) {
-    body {
+    /* body {
         font-size: 16px;
     }
     a {
@@ -392,9 +381,9 @@ a:hover {
     .paper-box {
         background: url('../gfx/sm/bg/paperbackground.webp') no-repeat left top;
         background-size: 100%;
-    }
+    } */
     /*** BACKGROUNDS ***/
-    .bg-photo-1 {
+    /* .bg-photo-1 {
         background: #000000 url('../gfx/sm/bg/mainbackground1.webp') no-repeat
             center top;
         background-size: auto 100%;
@@ -474,12 +463,12 @@ a:hover {
         background: #000000 url('../gfx/sm/bg/impressbackground.webp') no-repeat
             center top;
         background-size: auto 100%;
-    }
+    } */
 }
 
 /*** Tablet and small desktop screens ***/
 @media screen and (min-width: 640px) and (max-width: 1279px) {
-    body {
+    /* body {
         font-size: 19px;
     }
     a {
@@ -547,9 +536,9 @@ a:hover {
     .paper-box {
         background: url('../gfx/md/bg/paperbackground.webp') no-repeat left top;
         background-size: 100%;
-    }
+    } */
     /*** BACKGROUNDS ***/
-    .bg-photo-1 {
+    /* .bg-photo-1 {
         background: #000000 url('../gfx/md/bg/mainbackground1.webp') no-repeat
             center top;
         background-size: auto 100%;
@@ -629,12 +618,12 @@ a:hover {
         background: #000000 url('../gfx/md/bg/impressbackground.webp') no-repeat
             center top;
         background-size: auto 100%;
-    }
+    } */
 }
 
 /*** Large and HD screens ***/
 @media screen and (min-width: 1280px) and (max-width: 1919px) {
-    body {
+    /* body {
         font-size: 20px;
     }
     a {
@@ -702,9 +691,9 @@ a:hover {
     .paper-box {
         background: url('../gfx/lg/bg/paperbackground.webp') no-repeat left top;
         background-size: 100%;
-    }
+    } */
     /*** BACKGROUNDS ***/
-    .bg-photo-1 {
+    /* .bg-photo-1 {
         background: #000000 url('../gfx/lg/bg/mainbackground1.webp') no-repeat
             center top;
         background-size: auto 100%;
@@ -784,11 +773,11 @@ a:hover {
         background: #000000 url('../gfx/lg/bg/impressbackground.webp') no-repeat
             center top;
         background-size: auto 100%;
-    }
+    } */
 }
 /*** Extra large and 4K screens ***/
 @media screen and (min-width: 1920px) {
-    body {
+    /* body {
         font-size: 21px;
     }
     a {
@@ -856,9 +845,9 @@ a:hover {
     .paper-box {
         background: url('../gfx/xl/bg/paperbackground.webp') no-repeat left top;
         background-size: 100%;
-    }
+    } */
     /*** BACKGROUNDS ***/
-    .bg-photo-1 {
+    /* .bg-photo-1 {
         background: #000000 url('../gfx/xl/bg/mainbackground1.webp') no-repeat
             center top;
         background-size: auto 100%;
@@ -938,10 +927,10 @@ a:hover {
         background: #000000 url('../gfx/xl/bg/impressbackground.webp') no-repeat
             center top;
         background-size: auto 100%;
-    }
+    } */
 }
 
-.test {
+/* .test {
     background-color: #1c1c1c;
 }
 .test2 {
@@ -949,4 +938,4 @@ a:hover {
 }
 .test3 {
     background-color: #a1ffa1;
-}
+} */

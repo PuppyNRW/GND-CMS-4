@@ -7,6 +7,7 @@ module.exports = {
         primary: '#ccff00', // verde
         secondary: '#aa33cc', // verde claro
         darkgrey: '#A9A9A9', // text-gray-200- 300
+        warning: '#FFC107',
         dimgrey: '#696969', // text-gray-400 -500 - 600
         whitesmoke: '#F5F5F5', // text-gray-100
         snow: '#FFFAFA', // text-gray-50
@@ -19,5 +20,8 @@ module.exports = {
     },
   },
 
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ],
 };

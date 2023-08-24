@@ -6,21 +6,18 @@
 
 // const getDynamicTranslation = () => `${t('greeting.subtitle')}!`;
 import Header from '../components/startpage/header.vue';
+import Dancefloor from '../components/startpage/dancefloor.vue';
+import Prices from '../components/startpage/prices.vue';
+import Dates from '../components/startpage/dates.vue';
+import Impressions from '../components/startpage/impressions.vue';
 </script>
 
 <template>
-    <!-- <div
-        class="w-screen h-screen flex items-center justify-center bg-cover bg-base-100 flex-col"
-    >
-        <h1 class="text-base-200 text-5xl font-lato font-thin">
-            {{ $t('greeting.title') }}
-        </h1>
-        <br />
-        <h3 class="text-base-200 font-mono">{{ getDynamicTranslation() }}</h3>
-        <LanguageChooser></LanguageChooser>
-    </div> -->
     <Header ></Header>
-
+    <Dancefloor></Dancefloor>
+    <Prices></Prices>
+    <Dates></Dates>
+    <Impressions></Impressions>
 </template>
 
 <style></style>

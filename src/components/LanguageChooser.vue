@@ -25,7 +25,7 @@ const changeLanguage = () => {
 <template>
 <div class="zero-box overflow-visible">
     <button id="lng-menu-btn" type="button" class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline bg-gray-900 text-white hover:bg-gray-900 py-1 px-2 leading-tight text-xs  language-button" @click="showMenu = !showMenu" >
-        <i class="bi bi-translate button-icon"></i>
+        <i class="bi bi-translate button-icon text-2xl text-primary "></i>
     </button>
     <div id="lng-menu-card" :class="showMenu ? '': 'hidden'">
         <div class="cursor-pointer relative flex flex-col min-w-0 rounded break-words border md:mr-8 mt-3 ">
