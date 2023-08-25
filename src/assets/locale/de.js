@@ -190,6 +190,14 @@ export const de = {
       },
     },
   },
+  photowall: {
+    title: 'Impressionen der Party',
+    subtitle: 'Fotos sagen mehr als 1000 Worte!',
+    text: 'Auf unserer virtuellen Fotowand zeigen sich unsere Gäste kinky. Wähle ein Album aus um die Übersicht der Fotos zu erhalten. Klicke dann ein Foto an, um es zu vergrößern.',
+    takenBy: 'Foto von',
+    prev: 'Vorher',
+    next: 'Nächste',
+  },
   greeting: {
     title: 'Hallo ESC!',
   },

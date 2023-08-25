@@ -186,6 +186,14 @@ export const en = {
       },
     },
   },
+  photowall: {
+    title: 'Impressions of the party',
+    subtitle: 'Photos will tell the story!',
+    text: 'On our virtual photo wall our guests show themselves kinky. Click on a photo to enlarge it. You can then also navigate through the entire gallery.',
+    takenBy: 'Foto von',
+    prev: 'Prev',
+    next: 'Next',
+  },
   greeting: {
     title: 'Hello ESC!',
     subtitle: 'Welcome to the ESC-App',
