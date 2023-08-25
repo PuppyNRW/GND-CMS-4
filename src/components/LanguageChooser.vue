@@ -43,11 +43,7 @@ const changeLanguage = () => {
                         v-for="l in $i18n.availableLocales"
                         :key="l"
                         class="flex flex-row py-3 px-6 -mb-px border border-r-0 border-l-0 border-gray-300"
-                        @click="
-                            $i18n.locale = l
-                            changeLanguage(l)
-                            showMenu = false
-                        "
+                        @click="$i18n.locale = l; changeLanguage(l);showMenu = false "
                     >
                         <img :src="'/gfx/' + l + '.png'" class="mr-2" />
                         {{ getNameForLoc(l) }}
