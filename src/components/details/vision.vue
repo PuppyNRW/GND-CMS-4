@@ -9,9 +9,7 @@ const { t } = useI18n();
         class="min-h-screen bg-[url('/images/mainbackground2.webp')] bg-no-repeat bg-left-top bg-cover"
     >
         <div class=" ">
-            <h1
-                class="gndH1 mb-3 pt-28"
-            >
+            <h1 class="gndH1 mb-3 pt-28">
                 {{ t('details.vision.title') }}
             </h1>
             <div class="flex flex-col md:flex-row items-end gndBGBox">

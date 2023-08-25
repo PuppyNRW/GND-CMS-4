@@ -78,15 +78,18 @@ onMounted(async () => {
                 class="px-4 py-2 mr-2 bg-blue-500 text-white rounded hover:bg-blue-600"
                 @click="prevPage"
             >
-                {{t('photowall.prev')}}
-              </button>
-              <span class="mx-4 text-white">{{(start / limit) + 1}}/{{ Math.ceil(photosCount / limit) }}</span>
-              <button
-              class="px-4 py-2 ml-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-              @click="nextPage"
-              >
-              {{t('photowall.next')}}
-
+                {{ t('photowall.prev') }}
+            </button>
+            <span class="mx-4 text-white"
+                >{{ start / limit + 1 }}/{{
+                    Math.ceil(photosCount / limit)
+                }}</span
+            >
+            <button
+                class="px-4 py-2 ml-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                @click="nextPage"
+            >
+                {{ t('photowall.next') }}
             </button>
         </div>
     </div>

@@ -28,12 +28,15 @@ const dates = [
 
 const isNextFutureDate = (dateStr) => {
   // Check if dateStr is the next future date in the list.
-//   console.log(dateStr);
-//   console.log(dates);
-//   return false;
+  //   console.log(dateStr);
+  //   console.log(dates);
+  //   return false;
   const currentDate = new Date();
   const nextFutureDate = dates.find((dd) => new Date(dd.date) > currentDate);
-  return nextFutureDate && new Date(dateStr).getTime() === new Date(nextFutureDate.date).getTime();
+  return (
+    nextFutureDate
+        && new Date(dateStr).getTime() === new Date(nextFutureDate.date).getTime()
+  );
 };
 </script>
 
@@ -46,12 +49,16 @@ const isNextFutureDate = (dateStr) => {
         </h1>
         <div class="gndBGBox">
             <div class="flex flex-col">
-                <h2 class="text-white text-2xl mb-6">{{ $t('index.dates.subtitle') }}</h2>
+                <h2 class="text-white text-2xl mb-6">
+                    {{ $t('index.dates.subtitle') }}
+                </h2>
                 <table class="text-2xl my-3">
                     <thead class="border-b-2 border-white">
                         <td class="font-light">{{ $t('index.dates.date') }}</td>
                         <td class="font-light">{{ $t('index.dates.time') }}</td>
-                        <td class="font-light">{{ $t('index.dates.remark') }}</td>
+                        <td class="font-light">
+                            {{ $t('index.dates.remark') }}
+                        </td>
                     </thead>
                     <tbody>
                         <tr
@@ -60,10 +67,12 @@ const isNextFutureDate = (dateStr) => {
                             :class="{
                                 'bg-gray-800': index % 2 === 0,
                                 'bg-gray-900': index % 2 !== 0,
-                                'text-gray-500': new Date(date.date) < new Date(),
-                                'text-blue-500 font-bold': isNextFutureDate(date.date)
+                                'text-gray-500':
+                                    new Date(date.date) < new Date(),
+                                'text-blue-500 font-bold': isNextFutureDate(
+                                    date.date
+                                ),
                             }"
-
                         >
                             <td class="my-3">{{ d(new Date(date.date)) }}</td>
                             <td class="my-3">{{ date.time }}</td>
@@ -73,7 +82,7 @@ const isNextFutureDate = (dateStr) => {
                 </table>
                 <span class="my-3 flex flex-row">
                     <i class="bi bi-info-circle-fill mr-2"></i>
-                    <p >{{ t('index.dates.disclaimer1') }}</p>
+                    <p>{{ t('index.dates.disclaimer1') }}</p>
                 </span>
                 <p>
                     {{ t('index.dates.disclaimer2') }}

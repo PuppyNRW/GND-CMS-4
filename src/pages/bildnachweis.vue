@@ -40,11 +40,16 @@ const photos = [
                     }"
                 >
                     <td class="my-3">
-                        <a class="text-primary" :href="photo.link">{{ photo.name }}</a>
+                        <a class="text-primary" :href="photo.link">{{
+                            photo.name
+                        }}</a>
                     </td>
                     <td class="my-3">{{ photo.creator }}</td>
                     <td class="my-3">
-                        <a :href="photo.profile" target="_blank" class="text-primary"
+                        <a
+                            :href="photo.profile"
+                            target="_blank"
+                            class="text-primary"
                             ><i class="bi bi-link"></i
                         ></a>
                     </td>
@@ -53,7 +58,10 @@ const photos = [
             </tbody>
         </table>
         <p class="text-xl my-3">
-            Alle Fotos sind von den jeweiligen Urhebern zur Verwendung auf dieser Website genehmigt worden. Eine weitere Verwendung auf anderen Websites oder Medien außerhalb der Gear'n'Dance Veranstaltung ist nicht gestattet.
+            Alle Fotos sind von den jeweiligen Urhebern zur Verwendung auf
+            dieser Website genehmigt worden. Eine weitere Verwendung auf anderen
+            Websites oder Medien außerhalb der Gear'n'Dance Veranstaltung ist
+            nicht gestattet.
         </p>
     </div>
 </template>

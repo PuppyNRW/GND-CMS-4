@@ -17,8 +17,11 @@ const rules = [
   name,
   title: t(`details.rules.${name}.title`),
   description: t(`details.rules.${name}.description`),
-  state: ['mood', 'dresscode', 'curious'].includes(name) ? 'green'
-    : ['covid', 'sex'].includes(name) ? 'yellow' : 'red',
+  state: ['mood', 'dresscode', 'curious'].includes(name)
+    ? 'green'
+    : ['covid', 'sex'].includes(name)
+      ? 'yellow'
+      : 'red',
 }));
 </script>
 

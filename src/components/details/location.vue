@@ -8,10 +8,8 @@ const { t } = useI18n();
     <div
         class="min-h-screen bg-[url('/images/mainbackground8.webp')] bg-no-repeat bg-left-top bg-cover"
     >
-        <div class=" my-4 flex flex-col">
-            <h1
-                class="gndH1 mb-3 my-4"
-            >
+        <div class="my-4 flex flex-col">
+            <h1 class="gndH1 mb-3 my-4">
                 {{ t('details.location.title') }}
             </h1>
             <div class="gndBGBox">
