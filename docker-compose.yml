@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-    esc_suite_prod:
+    gnd-v-4:
         build: .
         ports:
-            - 7083:80
+            - 8001:80
         restart: always
