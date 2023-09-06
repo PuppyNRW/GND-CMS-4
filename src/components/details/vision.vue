@@ -19,7 +19,7 @@ const { t } = useI18n();
                 </div>
                 <img
                     class="md:w-2/5 object-contain h-[30rem]"
-                    src="/public/images/umbrellaguy.webp"
+                    src="/images/umbrellaguy.webp"
                     alt="umbrellaguy"
                 />
             </div>

@@ -15,7 +15,7 @@ const { t } = useI18n();
             <div class="gndBGBox">
                 <h2 class="">{{ t('details.directions.subtitle') }}</h2>
                 <div class="bg-white/25 md:w-[75%] mx-auto my-4">
-                    <img src="/public/images/direction.png" alt="Anfahrt" />
+                    <img src="/images/direction.png" alt="Anfahrt" />
                 </div>
                 <div class="flex md:flex-row flex-col">
                     <div

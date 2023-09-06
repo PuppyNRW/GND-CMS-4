@@ -23,7 +23,7 @@ const { t } = useI18n();
                     <div class="flex flex-col md:w-1/3 mb-4">
                         <img
                             class="h-40 object-contain mb-4"
-                            src="/public/images/photowall.webp"
+                            src="/images/photowall.webp"
                             alt="Photowall"
                         />
                         <router-link
@@ -37,7 +37,7 @@ const { t } = useI18n();
                     <div class="flex flex-col md:w-1/3 mb-4">
                         <img
                             class="h-40 object-contain mb-4"
-                            src="/public/images/youtube.webp"
+                            src="/images/youtube.webp"
                             alt="Youtube"
                         />
                         <a
@@ -50,7 +50,7 @@ const { t } = useI18n();
                     <div class="flex flex-col md:w-1/3 mb-4">
                         <img
                             class="h-40 object-contain mb-4"
-                            src="/public/images/inqueery.webp"
+                            src="/images/inqueery.webp"
                             alt="Inquery"
                         />
                         <a

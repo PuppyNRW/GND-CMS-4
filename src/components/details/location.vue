@@ -21,12 +21,12 @@ const { t } = useI18n();
                 <div class="flex md:flex-row flex-col">
                     <img
                         class="mx-3 md:w-[48%] my-4"
-                        src="/public/images/barbereich.png"
+                        src="/images/barbereich.png"
                         alt="Barbereich"
                     />
                     <img
                         class="mx-3 md:w-[48%] my-4"
-                        src="/public/images/dancefloor.png"
+                        src="/images/dancefloor.png"
                         alt="Dancefloor"
                     />
                 </div>

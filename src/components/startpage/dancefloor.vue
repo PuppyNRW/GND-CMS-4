@@ -13,7 +13,7 @@ const { t } = useI18n();
             <div class="flex flex-col-reverse md:flex-row">
                 <div class="md:w-2/5 flex items-end bg-transparent">
                     <img
-                        src="/public/images/rubbergimp002.webp"
+                        src="/images/rubbergimp002.webp"
                         alt=""
                         class=""
                     />

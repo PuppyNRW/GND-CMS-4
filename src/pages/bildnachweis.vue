@@ -2,14 +2,14 @@
 const photos = [
   {
     name: 'Spezialeinheit mit Gasmaske (schwarz)',
-    link: '/public/images/rubbergimp002.webp',
+    link: '/images/rubbergimp002.webp',
     creator: 'Duze',
     profile: 'https://www.instagram.com/duzepup/',
     date: '2022-08-27',
   },
   {
     name: 'SUMBRELLA Corp. Einheit mit Visier',
-    link: '/public/images/umbrella.webp',
+    link: '/images/umbrella.webp',
     creator: 'Pup Nyx',
     profile: 'https://www.instagram.com/puppy.nyx/',
     date: '2022-08-27',

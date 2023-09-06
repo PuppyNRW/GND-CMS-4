@@ -10,7 +10,7 @@ const { t, d } = useI18n();
 </script>
 <template>
     <div
-        class="h-screen bg-[url('PUBLIC_DIR/images/mainbackground1.webp')] bg-no-repeat bg-left-top bg-cover"
+        class="h-screen bg-[url('/images/mainbackground1.webp')] bg-no-repeat bg-left-top bg-cover"
     >
         <h1 class="text-5xl text-center text-primary font-semibold mb-3 pt-28">
             {{ t('index.header.title') }}
@@ -38,7 +38,7 @@ const { t, d } = useI18n();
                         46238 Bottrop
                     </address>
                     <img
-                        src="PUBLIC_DIR/images/mxhead002.webp"
+                        src="/images/mxhead002.webp"
                         alt=""
                         class="hidden md:block absolute -bottom-20 -right-28 w-1/2"
                     />
