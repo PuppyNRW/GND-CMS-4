@@ -12,6 +12,8 @@ const getNameForLoc = (l) => {
       return 'English';
     case 'de':
       return 'Deutsch';
+    case 'nl':
+      return 'Nederlands';
     default:
       return l;
   }
