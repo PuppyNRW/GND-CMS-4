@@ -14,12 +14,13 @@ Ensure you have [Docker](https://www.docker.com/get-started) installed on your m
 
    ```bash
    git clone <repository-url>
-  ```
+  ``
+  
 2. Navigate to the project directory.
 
   ```bash
   cd path/to/project
-  ```
+  ``
 
 3. Start the project using Docker Compose.
 
