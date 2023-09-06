@@ -35,7 +35,6 @@ Ensure you have [Docker](https://www.docker.com/get-started) installed on your m
 - VS Code + Volar
 - Add the following to your settings.json to enable autofix on save:
 ```json
-Copy code
 "editor.codeActionsOnSave": {
    "source.fixAll.eslint": true
 },
