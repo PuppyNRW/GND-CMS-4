@@ -16,7 +16,7 @@ const { t, d } = useI18n();
             {{ t('index.header.title') }}
         </h1>
         <div class="bg-black/50">
-            <div class="p-8 flex flex-col items-center">
+            <div class="p-8 flex flex-col items-center md:mt-32">
                 <p class="text-white text-justify text-xl">
                     {{ $t('index.header.subtitle') }}
                 </p>
