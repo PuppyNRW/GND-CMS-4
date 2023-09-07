@@ -12,21 +12,21 @@ Ensure you have [Docker](https://www.docker.com/get-started) installed on your m
 
 1. Clone this repository.
 
-   ```bash
-   git clone <repository-url>
-  ``
+```bash
+git clone <repository-url>
+```  
   
 2. Navigate to the project directory.
 
-  ```bash
-  cd path/to/project
-  ``
+```bash
+cd path/to/project
+```
 
 3. Start the project using Docker Compose.
 
-  ```bash
-  docker-compose up
-  ```
+```bash
+docker-compose up
+```  
 
 4. Once the containers are up and running, you can access the website on your local machine via http://localhost:<your-port>, replacing <your-port> with the port number specified in the docker-compose.yml.
 
