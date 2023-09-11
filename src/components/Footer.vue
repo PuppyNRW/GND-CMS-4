@@ -25,8 +25,7 @@ const { t } = useI18n();
         <div class="text-white text-sm text-center pb-3">
             Diese Veranstaltung wird von Puppy & Friends NRW e.V in Kooperation
             mit der Eloria Erlebniswelt GmbH durchgeführt.<br />
-            Die Website wurde mit viel Liebe und mit notepad.exe von Pup Duke
-            erstellt.<br />
+            Die Website basiert auf dem Design von Pup Duke.<br />
             Service icons made by Freepik from www.flaticon.com<br />
         </div>
     </div>
