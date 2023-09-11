@@ -16,7 +16,7 @@ const { t } = useI18n();
                 <h2 class="text-white text-2xl mb-6">
                     {{ $t('index.impressions.subtitle') }}
                 </h2>
-                <p>
+                <p class="text-xl">
                     {{ t('index.impressions.text') }}
                 </p>
                 <div class="flex flex-col md:flex-row mt-4 items-center">
