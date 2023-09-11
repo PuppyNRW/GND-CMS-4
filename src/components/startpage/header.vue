@@ -10,7 +10,7 @@ const { t, d } = useI18n();
 </script>
 <template>
     <div
-        class="h-screen bg-[url('/images/mainbackground1.webp')] bg-no-repeat bg-left-top bg-cover"
+        class="min-h-full bg-[url('/images/mainbackground1.webp')] bg-no-repeat bg-left-top bg-cover"
     >
         <h1 class="text-5xl text-center text-primary font-semibold mb-3 pt-28">
             {{ t('index.header.title') }}
@@ -21,7 +21,7 @@ const { t, d } = useI18n();
                     {{ $t('index.header.subtitle') }}
                 </p>
                 <div
-                    class="bg-white md:w-1/2 text-center text-black flex flex-col rounded p-6 relative"
+                    class="bg-white md:w-1/2 text-center text-black flex flex-col rounded p-6 relative "
                 >
                     <p>{{ $t('index.header.nextEvent') }}</p>
                     <h2 class="font-bold text-3xl">{{ d(nextEvent) }}</h2>
