@@ -11,7 +11,7 @@ const photos = [
     name: 'SUMBRELLA Corp. Einheit mit Visier',
     link: '/images/umbrella.webp',
     creator: 'Pup Nyx',
-    profile: 'https://www.instagram.com/puppy.nyx/',
+    profile: 'https://www.instagram.com/nyxx.photography',
     date: '2022-08-27',
   },
 ];
