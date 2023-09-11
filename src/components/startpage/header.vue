@@ -16,12 +16,12 @@ const { t, d } = useI18n();
             {{ t('index.header.title') }}
         </h1>
         <div class="bg-black/50">
-            <div class="p-8 flex flex-col items-center md:mt-32">
+            <div class="p-3 flex flex-col items-center md:mt-32">
                 <p class="text-white text-justify text-xl">
                     {{ $t('index.header.subtitle') }}
                 </p>
                 <div
-                    class="bg-white md:w-1/2 text-center text-black flex flex-col rounded p-6 relative "
+                    class="bg-white md:w-1/2 text-center text-black flex flex-col rounded relative "
                 >
                     <p>{{ $t('index.header.nextEvent') }}</p>
                     <h2 class="font-bold text-3xl">{{ d(nextEvent) }}</h2>

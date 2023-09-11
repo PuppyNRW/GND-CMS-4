@@ -19,21 +19,24 @@ const { t } = useI18n();
                     />
                 </div>
                 <div class="md:w-3/5">
-                    <div class="p-8 flex flex-col items-center text-left">
-                        <h2 class="text-3xl">
+                    <div class="my-3 flex flex-col items-center text-left">
+                        <h2 class="text-3xl py-3">
                             {{ $t('index.dancefloor.gearhead') }}
                         </h2>
-                        <p class="text-white text-justify">
+                        <p class="text-white text-justify text-xl">
                             {{ $t('index.dancefloor.gearheadSubtitle') }}
                         </p>
-                        <h2 class="text-3xl text-left">
+                        <h2 class="text-3xl text-left py-3">
                             {{ $t('index.dancefloor.dresscode') }}
                         </h2>
-                        <p class="text-white text-justify">
+                        <p class="text-white text-justify text-xl">
                             {{ $t('index.dancefloor.dresscodeSubtitle') }}
                         </p>
                     </div>
-                    <DetailsButton></DetailsButton>
+                    <div class="py-3">
+
+                        <DetailsButton></DetailsButton>
+                    </div>
                 </div>
             </div>
         </div>
