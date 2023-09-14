@@ -40,7 +40,7 @@ const { t, d } = useI18n();
                     <img
                         src="/images/mxhead002.webp"
                         alt=""
-                        class="hidden md:block absolute -bottom-20 -right-28 w-1/2"
+                        class="hidden md:block absolute -bottom-20 -right-28 max-h-72"
                     />
                 </div>
                 <p class="z-10">{{ $t('index.header.socialMedia') }}</p>
