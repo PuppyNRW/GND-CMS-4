@@ -36,7 +36,7 @@ const changeLanguage = () => {
         </button>
         <div id="lng-menu-card" :class="showMenu ? '' : 'hidden'">
             <div
-                class="cursor-pointer relative flex flex-col min-w-0 rounded break-words border md:mr-8 mt-3"
+                class="cursor-pointer relative flex flex-col bg-secondary/75 backdrop-blur-sm min-w-0 rounded break-words border md:mr-8 mt-3 mr-4"
             >
                 <ul
                     class="flex flex-col pl-0 mb-0 border rounded border-gray-300 text-primary"
