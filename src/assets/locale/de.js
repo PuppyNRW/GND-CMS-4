@@ -9,6 +9,7 @@ export const de = {
       nextEvent: 'Die nächste Party ist geplant am:',
       welcome: 'Alle ab 18 Jahren sind willkommen!',
       socialMedia: 'Bleib mit uns über Social Media in Verbindung:',
+      calendar: 'Zum Kalender hinzufügen',
     },
     dancefloor: {
       title: 'Tanzfläche frei: Zeig Dich kinky!',

@@ -9,6 +9,7 @@ export const nl = {
       nextEvent: 'Het volgende feest staat gepland op:',
       welcome: 'Iedereen van 18 jaar en ouder is welkom!',
       socialMedia: 'Blijf met ons in contact via sociale media:',
+      calendar: 'Voeg toe aan kalender',
     },
     dancefloor: {
       title: 'De dansvloer is van jou: Laat je kinky kant zien!',
@@ -70,7 +71,8 @@ export const nl = {
       title: 'Colofon',
       subtitle: 'Volgens § 5 TMG',
       addressTitle: 'Evenementlocatie:',
-      responsible: 'Verantwoordelijk in de zin van de Telemediawet (TMG §5):',
+      responsible:
+                'Verantwoordelijk in de zin van de Telemediawet (TMG §5):',
       represent: 'Vertegenwoordigd door het Bestuur:',
       representative1: 'Marvin Markner (1e voorzitter)',
       representative2: 'Jörn André Klatt (2e voorzitter)',
@@ -82,7 +84,7 @@ export const nl = {
       content2:
                 'Platform van de Europese Commissie voor online geschillenbeslechting (OS) voor consumenten: https://ec.europa.eu/consumers/odr/. We zijn niet bereid en niet verplicht om deel te nemen aan een geschillenbeslechtingsprocedure voor een consumentenarbitragecommissie.',
       content3:
-                'Alle media gepubliceerd op deze website (logo\'s, achtergronden, foto\'s, video\'s) evenals teksten zijn samengesteld uit vrije bronnen of gemaakt voor of door onszelf. We verbieden uitdrukkelijk het ongeautoriseerd gebruik van onze media - vooral op andere websites. Voor verzoeken om toestemming, gebruik het e-mailadres in het colofon.',
+                "Alle media gepubliceerd op deze website (logo's, achtergronden, foto's, video's) evenals teksten zijn samengesteld uit vrije bronnen of gemaakt voor of door onszelf. We verbieden uitdrukkelijk het ongeautoriseerd gebruik van onze media - vooral op andere websites. Voor verzoeken om toestemming, gebruik het e-mailadres in het colofon.",
     },
     footer: {
       imprint: 'Colofon',
@@ -121,7 +123,7 @@ export const nl = {
     directions: {
       title: 'Hoe kom je op het feest',
       subtitle:
-                    'Er leiden veel wegen naar Bottrop. Op deze manier kom je gegarandeerd op jouw feest!',
+                'Er leiden veel wegen naar Bottrop. Op deze manier kom je gegarandeerd op jouw feest!',
       car: {
         title: 'Aankomst met de auto of motor:',
         text1: 'Alle snelwegen door het Ruhrgebied die Bottrop passeren:',
@@ -133,13 +135,13 @@ export const nl = {
       public: {
         title: 'Aankomst met het openbaar vervoer/plaatselijk verkeer:',
         directions1:
-                        'Via Essen Hbf (Trein: RE14, S9; Bus: SB16, NE16) ...',
+                    'Via Essen Hbf (Trein: RE14, S9; Bus: SB16, NE16) ...',
         directions2:
-                        'of Oberhausen Hbf/Duisburg Hbf (RE44) tot Bottrop Hbf',
+                    'of Oberhausen Hbf/Duisburg Hbf (RE44) tot Bottrop Hbf',
         directions3:
-                        'Ga verder met bus 262 (BOT Eigen Markt) tot (H) Prosperstr./Ostring of met TaxiBus 294(*) tot (H) Malakofturm',
+                    'Ga verder met bus 262 (BOT Eigen Markt) tot (H) Prosperstr./Ostring of met TaxiBus 294(*) tot (H) Malakofturm',
         directions4:
-                        'Als alternatief kun je van Bottrop Hbf via Devenstraße Brakerstraße Steigerstraße in 30 minuten naar de locatie lopen.',
+                    'Als alternatief kun je van Bottrop Hbf via Devenstraße Brakerstraße Steigerstraße in 30 minuten naar de locatie lopen.',
         text: 'De beste manier om erachter te komen is via de VRR-app of website.*) Houd rekening met een wachttijd van ongeveer 30 minuten. Bestel de TaxiBus op tijd. Daarnaast biedt onze samenwerkingspartner u een shuttledienst tegen een vaste prijs.',
         shuttleButton: 'Shuttle Service',
       },
@@ -152,49 +154,49 @@ export const nl = {
       mood: {
         title: 'Goed humeur is een must!',
         description:
-                        'Wij kijken uit naar jullie glimlachen en vreugde op dit dansevenement.',
+                    'Wij kijken uit naar jullie glimlachen en vreugde op dit dansevenement.',
       },
       dresscode: {
         title: 'Pikante outfit, indien beschikbaar',
         description:
-                        'Stort je in je onweerstaanbare pikante outfit en wees jezelf.',
+                    'Stort je in je onweerstaanbare pikante outfit en wees jezelf.',
       },
       curious: {
         title: 'Wees nieuwsgierig en ruimdenkend',
         description:
-                        'Ontdek andere fetishes en wees nieuwsgierig naar vragen over jouw fetish.',
+                    'Ontdek andere fetishes en wees nieuwsgierig naar vragen over jouw fetish.',
       },
       covid: {
         title: 'Wettelijke COVID-regels',
         description:
-                        'Toegang is alleen mogelijk volgens de door de wet vastgestelde COVID-regels.',
+                    'Toegang is alleen mogelijk volgens de door de wet vastgestelde COVID-regels.',
       },
       sex: {
         title: 'Seksuele handelingen',
         description:
-                        'Onthoud je van seksuele handelingen tijdens het evenement. Het maakt ons niet uit als je wilt spelen, iemand - met wederzijdse toestemming - aan een riem wilt leiden of vastbinden.',
+                    'Onthoud je van seksuele handelingen tijdens het evenement. Het maakt ons niet uit als je wilt spelen, iemand - met wederzijdse toestemming - aan een riem wilt leiden of vastbinden.',
       },
       drink: {
         title: 'Drink niet en rijd niet',
         description:
-                        'Als je twijfelt over je rijvaardigheid, laat ons dan een taxi voor je bellen! Zodat het rijbewijs van jou blijft en niemand gewond raakt.',
+                    'Als je twijfelt over je rijvaardigheid, laat ons dan een taxi voor je bellen! Zodat het rijbewijs van jou blijft en niemand gewond raakt.',
       },
       sexism: {
         title: 'Seksisme / seksuele intimidatie',
         description:
-                        'Wij tolereren geen beschaming van geslachten en identiteiten, fetishes of mensen. Respecteer de fetishes en het uiterlijk van alle gasten op het feest.',
+                    'Wij tolereren geen beschaming van geslachten en identiteiten, fetishes of mensen. Respecteer de fetishes en het uiterlijk van alle gasten op het feest.',
       },
       drugs: {
         title: 'Illegale drugs',
         description:
-                        'Het gebruik van illegale drugs is niet toegestaan in het hele evenementengebied (binnen en buiten)',
+                    'Het gebruik van illegale drugs is niet toegestaan in het hele evenementengebied (binnen en buiten)',
       },
     },
   },
 
   photowall: {
     title: 'Indrukken van het feest',
-    subtitle: 'Foto\'s vertellen het verhaal!',
+    subtitle: "Foto's vertellen het verhaal!",
     text: 'Op onze virtuele fotomuur laten onze gasten zich van hun kinky kant zien. Klik op een foto om deze te vergroten. Daarna kun je ook door de hele galerij navigeren.',
     takenBy: 'Foto door',
     prev: 'Vorige',
@@ -205,5 +207,4 @@ export const nl = {
     subtitle: 'Welkom bij de ESC-App',
   },
   selectLanguage: 'Selecteer taal',
-
 };

@@ -9,6 +9,7 @@ export const en = {
       nextEvent: 'The next party is scheduled on:',
       welcome: 'Everyone of 18 years and older is welcome!',
       socialMedia: 'Stay in touch with us on social media:',
+      calendar: 'Add to calendar',
     },
     dancefloor: {
       title: 'The dance floor is yours: Show yourself kinky!',

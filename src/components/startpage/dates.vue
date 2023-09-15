@@ -53,7 +53,7 @@ const { t, d } = useI18n();
                     </thead>
                     <tbody>
                         <tr
-                            v-for="(date, index) in dates"
+                            v-for="(date, index) in eventDates"
                             :key="date.date"
                             :class="{
                                 'bg-gray-800': index % 2 === 0,

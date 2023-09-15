@@ -1,12 +1,31 @@
 <script setup>
 import { useI18n } from 'vue-i18n';
+import { onMounted, ref } from 'vue';
 import TelegramButton from '../TelegramButton.vue';
 import InstagramButton from '../InstagramButton.vue';
 import DetailsButton from '../DetailsButton.vue';
-
-const nextEvent = new Date('2023-10-07T21:00:00');
+import { getNextFutureDate, generateICS } from '../../composables/dates';
 
 const { t, d } = useI18n();
+
+// const nextEvent = new Date('2023-10-07T21:00:00');
+const nextEvent = ref();
+onMounted(() => {
+  const date = getNextFutureDate();
+  console.log(date);
+  nextEvent.value = new Date(`${date.date}T${date.time}`);
+});
+
+const downloadICS = () => {
+  const icsContent = generateICS(getNextFutureDate());
+  const blob = new Blob([icsContent], { type: 'text/calendar' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'gearndance.ics';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 </script>
 <template>
     <div
@@ -21,10 +40,12 @@ const { t, d } = useI18n();
                     {{ $t('index.header.subtitle') }}
                 </p>
                 <div
-                    class="bg-white md:w-1/2 text-center text-black flex flex-col rounded relative "
+                    class="bg-white md:w-1/2 text-center text-black flex flex-col rounded relative"
                 >
                     <p>{{ $t('index.header.nextEvent') }}</p>
-                    <h2 class="font-bold text-3xl">{{ d(nextEvent) }}</h2>
+                    <h2 v-if="nextEvent" class="font-bold text-3xl">
+                        {{ d(nextEvent) }}
+                    </h2>
                     <h2 class="font-bold text-3xl">ab 21:00 Uhr</h2>
                     <p class="mb-2">{{ $t('index.header.welcome') }}</p>
                     <span>
@@ -37,6 +58,12 @@ const { t, d } = useI18n();
                         Knappenstr. 36<br />
                         46238 Bottrop
                     </address>
+                    <button
+                        class="mt-4 text-primary bg-secondary font-bold p-2"
+                        @click="downloadICS"
+                    >
+                        {{ $t('index.header.calendar')  }}
+                    </button>
                     <img
                         src="/images/mxhead002.webp"
                         alt=""
