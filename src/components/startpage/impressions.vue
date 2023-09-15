@@ -6,7 +6,7 @@ const { t } = useI18n();
 
 <template>
     <div
-        class="min-h-screen bg-[url('/images/mainbackground6.webp')]  bg-no-repeat bg-left-top bg-cover"
+        class="min-h-screen bg-[url('/images/mainbackground8.webp')]  bg-no-repeat bg-left-top bg-cover"
     >
         <h1 class="gndH1 mb-3 pt-28">
             {{ $t('index.impressions.title') }}
