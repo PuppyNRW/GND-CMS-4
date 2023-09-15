@@ -1,43 +1,9 @@
 <script setup>
 import { useI18n } from 'vue-i18n';
+import { eventDates, isNextFutureDate } from '../../composables/dates';
 
 const { t, d } = useI18n();
 
-const dates = [
-  {
-    date: '2023-01-07',
-    time: '21:00',
-    remark: 'Winter Edition',
-  },
-  {
-    date: '2023-04-01',
-    time: '21:00',
-    remark: 'Kombiwochenende',
-  },
-  {
-    date: '2023-07-01',
-    time: '21:00',
-    remark: 'Summer Edition',
-  },
-  {
-    date: '2023-10-07',
-    time: '21:00',
-    remark: 'Kombiwochenende',
-  },
-];
-
-const isNextFutureDate = (dateStr) => {
-  // Check if dateStr is the next future date in the list.
-  //   console.log(dateStr);
-  //   console.log(dates);
-  //   return false;
-  const currentDate = new Date();
-  const nextFutureDate = dates.find((dd) => new Date(dd.date) > currentDate);
-  return (
-    nextFutureDate
-        && new Date(dateStr).getTime() === new Date(nextFutureDate.date).getTime()
-  );
-};
 </script>
 
 <template>
@@ -62,7 +28,7 @@ const isNextFutureDate = (dateStr) => {
                     </thead>
                     <tbody>
                         <tr
-                            v-for="(date, index) in dates"
+                            v-for="(date, index) in eventDates"
                             :key="date.date"
                             :class="{
                                 'bg-gray-800': index % 2 === 0,
