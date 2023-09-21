@@ -15,6 +15,11 @@ const limit = 10;
 
 async function fetchPictures() {
   pics.value = await getPictures(partyId, start.value, limit);
+  pics.value.attributes.Photos.data.forEach((pic) => {
+    pic.attributes.formats = pic.attributes.formats ?? {};
+    pic.attributes.formats.small = pic.attributes.formats.small ?? {};
+    pic.attributes.formats.small.url = pic.attributes.formats.small.url ?? pic.attributes.url;
+  });
   photosCount.value = pics.value.attributes.PhotosCount;
 }
 function nextPage() {
@@ -66,7 +71,7 @@ onMounted(async () => {
                             transform: `rotate(${getRandomRotation()}deg)`,
                         }"
                         class="mx-auto w-full h-auto rounded"
-                        :src="`https://strapi.puppy.nrw${pic.attributes.formats.small.url}`"
+                        :src="`https://strapi.puppy.nrw${pic.attributes.formats.small.url ? pic.attributes.formats.small.url : pic.attributes.url}`"
                         alt="Folder"
                     />
                 </a>
