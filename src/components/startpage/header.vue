@@ -34,6 +34,14 @@ const downloadICS = () => {
         <h1 class="text-5xl text-center text-primary font-semibold mb-3 pt-28">
             {{ t('index.header.title') }}
         </h1>
+        <div class="flex flex-row items-center my-12 animate-bounce">
+            <a
+                href="https://upload.puppy.nrw/"
+                target="_blank"
+                class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded hover:bg-gray-400"
+                >{{ t('index.header.upload') }}</a
+            >
+        </div>
         <div class="bg-black/50">
             <div class="p-3 flex flex-col items-center md:mt-32">
                 <p class="text-white text-justify text-xl">
@@ -62,7 +70,7 @@ const downloadICS = () => {
                         class="mt-4 text-primary bg-secondary font-bold p-2"
                         @click="downloadICS"
                     >
-                        {{ $t('index.header.calendar')  }}
+                        {{ $t('index.header.calendar') }}
                     </button>
                     <img
                         src="/images/mxhead002.webp"

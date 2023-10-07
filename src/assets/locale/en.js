@@ -10,6 +10,7 @@ export const en = {
       welcome: 'Everyone of 18 years and older is welcome!',
       socialMedia: 'Stay in touch with us on social media:',
       calendar: 'Add to calendar',
+      upload: 'Upload your party pics here',
     },
     dancefloor: {
       title: 'The dance floor is yours: Show yourself kinky!',

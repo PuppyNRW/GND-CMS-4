@@ -10,6 +10,7 @@ export const de = {
       welcome: 'Alle ab 18 Jahren sind willkommen!',
       socialMedia: 'Bleib mit uns über Social Media in Verbindung:',
       calendar: 'Zum Kalender hinzufügen',
+      upload: 'Lade hier deine Partybilder hoch',
     },
     dancefloor: {
       title: 'Tanzfläche frei: Zeig Dich kinky!',

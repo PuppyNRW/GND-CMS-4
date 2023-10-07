@@ -10,6 +10,7 @@ export const nl = {
       welcome: 'Iedereen van 18 jaar en ouder is welkom!',
       socialMedia: 'Blijf met ons in contact via sociale media:',
       calendar: 'Voeg toe aan kalender',
+      upload: 'Upload hier uw feestfoto\'s',
     },
     dancefloor: {
       title: 'De dansvloer is van jou: Laat je kinky kant zien!',
