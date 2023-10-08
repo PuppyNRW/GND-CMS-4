@@ -34,7 +34,7 @@ const downloadICS = () => {
         <h1 class="text-5xl text-center text-primary font-semibold mb-3 pt-28">
             {{ t('index.header.title') }}
         </h1>
-        <div class="flex flex-row items-center my-12 animate-bounce">
+        <div v-if="false" class="flex flex-row items-center my-12 animate-bounce">
             <a
                 href="https://upload.puppy.nrw/"
                 target="_blank"
