@@ -19,6 +19,11 @@ export const eventDates = [
     time: '21:00',
     remark: 'Kombiwochenende',
   },
+  {
+    date: '2024-01-06',
+    time: '21:00',
+    remark: '',
+  },
 ];
 
 export const isNextFutureDate = (dateStr) => {
