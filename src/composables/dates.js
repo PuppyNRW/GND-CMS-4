@@ -1,26 +1,21 @@
 export const eventDates = [
   {
-    date: '2023-01-07',
-    time: '21:00',
-    remark: 'Winter Edition',
-  },
-  {
-    date: '2023-04-01',
-    time: '21:00',
-    remark: 'Kombiwochenende',
-  },
-  {
-    date: '2023-07-01',
-    time: '21:00',
-    remark: 'Summer Edition',
-  },
-  {
-    date: '2023-10-07',
-    time: '21:00',
-    remark: 'Kombiwochenende',
-  },
-  {
     date: '2024-01-06',
+    time: '21:00',
+    remark: '',
+  },
+  {
+    date: '2024-04-13',
+    time: '21:00',
+    remark: '',
+  },
+  {
+    date: '2024-07-06',
+    time: '21:00',
+    remark: '',
+  },
+  {
+    date: '2024-10-12',
     time: '21:00',
     remark: '',
   },
