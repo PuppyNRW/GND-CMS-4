@@ -18,7 +18,7 @@
         "@vueuse/core": "^10.5.0",
         "@vueuse/head": "^2.0.0",
         "axios": "^1.5.1",
-        "daisyui": "^3.9.2",
+        "daisyui": "^3.9.3",
         "ics": "^3.5.0",
         "luxon": "^3.4.3",
         "mobile-device-detect": "^0.4.3",
