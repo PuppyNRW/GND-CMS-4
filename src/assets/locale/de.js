@@ -74,9 +74,9 @@ export const de = {
     responsible:
             'Verantwortlicher im Sinne des Telemediengesetzes (TMG §5):',
     represent: 'Vertreten durch den Vorstand:',
-    representative1: 'Marvin Markner (1. Vorsitzender)',
-    representative2: 'Jörn André Klatt (2. Vorsitzender)',
-    representative3: 'Holger Osterhoff (Kassenwart)',
+    representative1: 'Jannik Wuttke (1. Vorsitzender)',
+    representative2: 'Chris Hendrik Käding  (2. Vorsitzender)',
+    representative3: 'Jörn André Klatt (Kassenwart)',
     register: 'Registereintrag: Amtsgricht Düsseldorf VR 12157',
     tax: 'Steuer-ID: 106/5754/1949',
     content1:

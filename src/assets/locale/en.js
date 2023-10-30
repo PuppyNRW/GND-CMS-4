@@ -72,9 +72,9 @@ export const en = {
     addressTitle: 'Event location:',
     responsible: 'Responsible in the sense of the Telemedia Act (TMG §5):',
     represent: 'Represented by the Executive Board::',
-    representative1: 'Marvin Markner (1st chairman)',
-    representative2: 'Jörn André Klatt (2nd chairman)',
-    representative3: 'Holger Osterhoff (Treasurer)',
+    representative1: 'Jannik Wuttke (1st chairman)',
+    representative2: 'Chris Hendrik Käding (2nd chairman)',
+    representative3: 'Jörn André Klatt (Treasurer)',
     register: 'Register entry: Amtsgricht Düsseldorf VR 12157',
     tax: 'Tax ID: 106/5754/1949',
     content1:

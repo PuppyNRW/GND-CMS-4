@@ -10,7 +10,7 @@ export const nl = {
       welcome: 'Iedereen van 18 jaar en ouder is welkom!',
       socialMedia: 'Blijf met ons in contact via sociale media:',
       calendar: 'Voeg toe aan kalender',
-      upload: 'Upload hier uw feestfoto\'s',
+      upload: "Upload hier uw feestfoto's",
     },
     dancefloor: {
       title: 'De dansvloer is van jou: Laat je kinky kant zien!',
@@ -75,9 +75,9 @@ export const nl = {
       responsible:
                 'Verantwoordelijk in de zin van de Telemediawet (TMG §5):',
       represent: 'Vertegenwoordigd door het Bestuur:',
-      representative1: 'Marvin Markner (1e voorzitter)',
-      representative2: 'Jörn André Klatt (2e voorzitter)',
-      representative3: 'Holger Osterhoff (Penningmeester)',
+      representative1: 'Jannik Wuttke (1e voorzitter)',
+      representative2: 'Chris Hendrik Käding  (2e voorzitter)',
+      representative3: 'Jörn André Klatt (Penningmeester)',
       register: 'Registervermelding: Amtsgricht Düsseldorf VR 12157',
       tax: 'Belasting ID: 106/5754/1949',
       content1:
