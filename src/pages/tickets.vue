@@ -7,8 +7,8 @@ const { t, locale } = useI18n();
 const shopError = ref(false);
 const shopEnabled = ref(true);
 const saleValidUntil = new Date('2023-12-31');
-const saleStart = new Date('2023-01-01');
-const eventURL = 'https://tickets.pupplay.nrw/gnd/gnd10-23/';
+const saleStart = new Date('2023-11-26');
+const eventURL = 'https://tickets.pupplay.nrw/gnd/gnd01-24/';
 const resendURL = ref('');
 
 onMounted(() => {
