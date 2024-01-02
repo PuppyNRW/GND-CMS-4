@@ -44,17 +44,7 @@ const { t, n } = useI18n();
                     <i class="bi bi-info-circle-fill mr-2"></i>
                     <p>{{ t('index.prices.prepaid') }}</p>
                 </span>
-                <div class="">
-                    <span>{{ t('index.prices.drinks1') }}</span>
-                    <i class="bi bi-link-45deg"></i>
-                    <a
-                        class="text-primary cursor-pointer"
-                        href="/pdf/preisliste.pdf"
-                        target="_blank"
-                        >{{ t('index.prices.drinks2') }}.</a
-                    >
-                    <span>{{ t('index.prices.drinks3') }}</span>
-                </div>
+
             </div>
         </div>
     </div>
