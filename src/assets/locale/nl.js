@@ -48,7 +48,7 @@ export const nl = {
     },
 
     dates: {
-      title: 'Alle feestdata voor 2023',
+      title: 'Alle feestdata voor 2024',
       subtitle: "Alle data voor het Gear'n'Dance Feest in het overzicht",
       date: 'Datum',
       time: 'Tijd',

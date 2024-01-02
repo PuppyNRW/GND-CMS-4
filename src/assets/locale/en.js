@@ -46,7 +46,7 @@ export const en = {
                 'While stocks last. The operator of the bar is responsible for the correctness of the prices for drinks and snacks. Prices until further notice.',
     },
     dates: {
-      title: 'All party dates for 2023',
+      title: 'All party dates for 2024',
       subtitle: "All dates for the Gear'n'Dance Party in the overview",
       date: 'Date',
       time: 'Time',

@@ -46,7 +46,7 @@ export const de = {
                 'Solange der Vorrat reicht. Für die Richtigkeit der Preise von Getränken und Snacks ist der Betreiber der Bar verantwortlich. Preise bis auf Widerruf.',
     },
     dates: {
-      title: 'Alle Partytermine für 2023',
+      title: 'Alle Partytermine für 2024',
       subtitle:
                 "Alle Termine für die Gear'n'Dance Party in der Übersicht",
       date: 'Datum',
