@@ -19,7 +19,7 @@ const { t, n } = useI18n();
                 <table>
                     <tr class="bg-gray-700 text-xl">
                         <td>{{ t('index.prices.onlineTicket') }}</td>
-                        <td>{{ n(13.0) }}&thinsp;€</td>
+                        <td>{{ n(16.0) }}&thinsp;€</td>
                     </tr>
                     <tr class="bg-gray-600 text-xl">
                         <td>{{ t('index.prices.coat') }}</td>
