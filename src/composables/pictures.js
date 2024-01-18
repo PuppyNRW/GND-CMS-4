@@ -2,7 +2,7 @@ import { strapi } from './http.common';
 
 const getParties = async () => {
   const query = `query parties {
-  parties{
+  parties(pagination: { pageSize: 200 }){
     data {
       id
       attributes {

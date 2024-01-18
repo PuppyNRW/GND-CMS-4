@@ -28,8 +28,8 @@ onMounted(async () => {
         <h1 class="gndH1">{{ t('photowall.title') }}</h1>
         <h2 class="text-3xl">{{ t('photowall.subtitle') }}</h2>
         <p class="text-lg">{{ t('photowall.text') }}</p>
-        <div class="flex flex-col md:flex-row">
-            <div v-for="party in parties" :key="party.id">
+        <div class="flex flex-col md:flex-row flex-wrap">
+            <div v-for="(party) in parties" :key="party.id" class="w-full md:w-1/4 p-2">
                 <router-link
                     class="cursor-pointer"
                     :to="`/photowall/${party.id}`"
