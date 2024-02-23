@@ -6,8 +6,8 @@ const { t, locale } = useI18n();
 
 const shopError = ref(false);
 const shopEnabled = ref(true);
-const saleValidUntil = new Date('2023-12-31');
-const saleStart = new Date('2023-11-26');
+const saleValidUntil = new Date('2024-04-14');
+const saleStart = new Date('2024-03-03');
 const eventURL = 'https://tickets.pupplay.nrw/gnd/04-24/';
 const resendURL = ref('');
 
