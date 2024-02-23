@@ -5,9 +5,6 @@ import { onMounted, ref } from 'vue';
 const { t, locale } = useI18n();
 
 const shopError = ref(false);
-const shopEnabled = ref(true);
-const saleValidUntil = new Date('2024-04-14');
-const saleStart = new Date('2024-03-03');
 const eventURL = 'https://tickets.pupplay.nrw/gnd/04-24/';
 const resendURL = ref('');
 
@@ -41,34 +38,16 @@ onMounted(() => {
                 </p>
             </div>
             <div v-else>
-                <div v-if="shopEnabled && saleValidUntil > new Date()">
-                    <div v-if="new Date() < saleStart">
+                <div class="bg-white/20">
+                    <pretix-widget :event="eventURL"></pretix-widget>
+                    <noscript>
+                        <p>{{ t('tickets.noScript') }}bb</p>
                         <p>
-                            <center>
-                                <i class="bi bi-arrow-right-short"></i> sale
-                                start
-                            </center>
+                            <a :href="shopURL" class="gndbtn">{{
+                                t('tickets.shopURLText')
+                            }}</a>
                         </p>
-                    </div>
-                    <div v-else class="bg-white/20">
-                        <pretix-widget :event="eventURL"></pretix-widget>
-                        <noscript>
-                            <p>{{ t('tickets.noScript') }}bb</p>
-                            <p>
-                                <a :href="shopURL" class="gndbtn">{{
-                                    t('tickets.shopURLText')
-                                }}</a>
-                            </p>
-                        </noscript>
-                    </div>
-                </div>
-                <div v-else>
-                    <p>
-                        <center>
-                            <i class="bi bi-arrow-right-short"></i>
-                            {{ t('tickets.noSale') }}
-                        </center>
-                    </p>
+                    </noscript>
                 </div>
             </div>
             <div class="flex flex-row">
