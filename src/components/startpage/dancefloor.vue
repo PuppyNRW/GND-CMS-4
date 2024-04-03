@@ -12,11 +12,7 @@ const { t } = useI18n();
         <div class="gndBGBox">
             <div class="flex flex-col-reverse md:flex-row">
                 <div class="md:w-2/5 flex items-end bg-transparent">
-                    <img
-                        src="/images/rubbergimp002.webp"
-                        alt=""
-                        class=""
-                    />
+                    <img src="/images/rubbergimp002.webp" alt="" class="" />
                 </div>
                 <div class="md:w-3/5">
                     <div class="my-3 flex flex-col items-center text-left">
@@ -34,7 +30,6 @@ const { t } = useI18n();
                         </p>
                     </div>
                     <div class="py-3">
-
                         <DetailsButton></DetailsButton>
                     </div>
                 </div>

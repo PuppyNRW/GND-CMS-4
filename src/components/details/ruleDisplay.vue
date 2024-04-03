@@ -10,8 +10,8 @@ const props = defineProps({
             props.rule.state == 'green'
                 ? 'text-green-400'
                 : props.rule.state == 'yellow'
-                ? 'text-yellow-400'
-                : 'text-red-400'
+                  ? 'text-yellow-400'
+                  : 'text-red-400'
         "
         class="flex flex-row items-start justify-start align-middle"
     >
@@ -21,8 +21,8 @@ const props = defineProps({
                 props.rule.state == 'green'
                     ? 'bi-check-circle-fill'
                     : props.rule.state == 'yellow'
-                    ? 'bi-exclamation-triangle-fill'
-                    : 'bi-x-square-fill'
+                      ? 'bi-exclamation-triangle-fill'
+                      : 'bi-x-square-fill'
             "
         ></i>
         <div class="fles flex-col">

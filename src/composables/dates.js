@@ -56,7 +56,6 @@ export const generateICS = (e) => {
     description: e.remark,
     location: 'Eloria Bar und Lounge Knappenstr. 36 46238 Bottrop',
     geo: { lat: 51.5183672, lon: 6.9568295 },
-
   };
 
   // Convert to two-digit format
@@ -90,11 +89,11 @@ END:VCALENDAR`;
 
   //   console.log(`event: ${JSON.stringify(event)}`);
 
-//   createEvent(event, (error, value) => {
-//     if (error) {
-//       console.log(error);
-//     }
-//     ret = value;
-//   });
-//   return ret;
+  //   createEvent(event, (error, value) => {
+  //     if (error) {
+  //       console.log(error);
+  //     }
+  //     ret = value;
+  //   });
+  //   return ret;
 };

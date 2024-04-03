@@ -3,7 +3,6 @@ import { useI18n } from 'vue-i18n';
 import { eventDates, isNextFutureDate } from '../../composables/dates';
 
 const { t, d } = useI18n();
-
 </script>
 
 <template>
@@ -46,10 +45,21 @@ const { t, d } = useI18n();
                         </tr>
                     </tbody>
                 </table>
-                <table class="text-2xl my-3  md:hidden">
-                    <thead class="boeder-b-2 border-white" >
-                        <tr class="font-light">{{ $t('index.dates.date') }} {{$t('index.dates.time') }}</tr>
-                        <tr class="font-light">{{ $t('index.dates.remark') }}</tr>
+                <table class="text-2xl my-3 md:hidden">
+                    <thead class="boeder-b-2 border-white">
+                        <tr class="font-light">
+                            {{
+                                $t('index.dates.date')
+                            }}
+                            {{
+                                $t('index.dates.time')
+                            }}
+                        </tr>
+                        <tr class="font-light">
+                            {{
+                                $t('index.dates.remark')
+                            }}
+                        </tr>
                     </thead>
                     <tbody>
                         <tr
@@ -65,7 +75,9 @@ const { t, d } = useI18n();
                                 ),
                             }"
                         >
-                            <td class="my-3">{{ d(new Date(date.date)) }} {{ date.time }} <br>{{ date.remark }}
+                            <td class="my-3">
+                                {{ d(new Date(date.date)) }} {{ date.time }}
+                                <br />{{ date.remark }}
                             </td>
                         </tr>
                     </tbody>

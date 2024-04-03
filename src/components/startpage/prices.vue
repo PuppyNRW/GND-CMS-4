@@ -44,7 +44,6 @@ const { t, n } = useI18n();
                     <i class="bi bi-info-circle-fill mr-2"></i>
                     <p>{{ t('index.prices.prepaid') }}</p>
                 </span>
-
             </div>
         </div>
     </div>
