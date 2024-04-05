@@ -96,6 +96,11 @@ Let op mogelijke kortetermijnwijzigingen vanwege wettelijke vereisten of organis
     question: 'Toegankelijkheidsinformatie',
     answer: 'Er is een begeleide toegang die vooraf geregistreerd kan worden via een Telegram-link. Eloria beschikt over een lift naar de bovenverdieping met een bar en dansvloer om de toegang voor mensen met zicht-, gehoor-, mobiliteitsbeperkingen en dergelijke te vergemakkelijken. Toegankelijke toiletten zijn beschikbaar.',
   },
+  {
+    vraag: 'Is het toegestaan om cannabis te consumeren op jullie evenement?',
+    antwoord:
+            'Momenteel is het consumeren van cannabis tijdens het evenement niet toegestaan.',
+  },
 ];
 
 export { faqNL };

@@ -97,6 +97,10 @@ Please note possible short-term changes due to legal requirements or organizatio
     question: 'Accessibility information',
     answer: 'There is an accompanied entry that can be pre-registered via a Telegram link. Eloria has an elevator to the upper level with a bar and dance floor to facilitate access for people with sight, hearing, mobility impairments, and similar. Accessible toilets are available.',
   },
+  {
+    question: 'Is it allowed to consume cannabis at your event?',
+    answer: 'Currently, the consumption of cannabis is not permitted during the event.',
+  },
 ];
 
 export { faqEN };
