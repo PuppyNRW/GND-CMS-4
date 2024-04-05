@@ -4,6 +4,7 @@ import { onMounted, ref } from 'vue';
 import TelegramButton from '../TelegramButton.vue';
 import InstagramButton from '../InstagramButton.vue';
 import DetailsButton from '../DetailsButton.vue';
+import FaqButton from '../FaqButton.vue';
 import { getNextFutureDate, generateICS } from '../../composables/dates';
 
 const { t, d } = useI18n();
@@ -86,7 +87,10 @@ const downloadICS = () => {
                     <TelegramButton></TelegramButton>
                     <InstagramButton></InstagramButton>
                 </div>
-                <DetailsButton></DetailsButton>
+                <div class="flex flex-row">
+                    <DetailsButton></DetailsButton>
+                    <FaqButton class="ml-2"></FaqButton>
+                </div>
             </div>
         </div>
     </div>
