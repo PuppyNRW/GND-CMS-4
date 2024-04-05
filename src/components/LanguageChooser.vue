@@ -22,6 +22,12 @@ const getNameForLoc = (l) => {
 const changeLanguage = () => {
   window.localStorage.setItem('esclocale', locale.value);
 };
+
+const changeLocaleAndCloseMenu = (l) => {
+  locale.value = l; // Change locale
+  changeLanguage(); // Store the new locale
+  showMenu.value = false; // Close the menu
+};
 </script>
 
 <template>
@@ -45,7 +51,7 @@ const changeLanguage = () => {
                         v-for="l in $i18n.availableLocales"
                         :key="l"
                         class="flex flex-row py-3 px-6 -mb-px border border-r-0 border-l-0 border-gray-300"
-                        @click="$i18n.locale = l; changeLanguage(l);showMenu = false "
+                        @click="changeLocaleAndCloseMenu(l)"
                     >
                         <img :src="'/gfx/' + l + '.png'" class="mr-2" />
                         {{ getNameForLoc(l) }}
