@@ -97,10 +97,6 @@ Bitte beachte mögliche kurzfristige Änderungen aufgrund gesetzlicher Bestimmun
     question: 'Info zur Barrierefreiheit',
     answer: 'Es gibt einen begleiteten Einlass, der vorab über einen Telegram-Link angemeldet werden kann. Das Eloria verfügt über einen Aufzug zur oberen Ebene mit Bar und Dancefloor, um Personen mit Beeinträchtigungen der Sicht, des Hörens, der Mobilität und ähnlichem den Zugang zu erleichtern. Behindertengerechte Toiletten sind vorhanden',
   },
-  {
-    question: '',
-    answer: '',
-  },
 ];
 
 export { faqDE };
