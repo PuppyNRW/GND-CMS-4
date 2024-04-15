@@ -1,7 +1,7 @@
-import { strapi } from './http.common';
+import { strapi } from './http.common'
 
 const getParties = async () => {
-  const query = `query parties {
+    const query = `query parties {
   parties(pagination: { pageSize: 200 }){
     data {
       id
@@ -12,16 +12,16 @@ const getParties = async () => {
       }
     }
   }
-}`;
+}`
 
-  const res = await strapi.post('/graphql', {
-    query,
-  });
-  return res.data.data.parties.data;
-};
+    const res = await strapi.post('/graphql', {
+        query,
+    })
+    return res.data.data.parties.data
+}
 
 const getPictures = async (id, start, limit) => {
-  const query = `query Party($partyId: ID!, $start: Int, $limit: Int){
+    const query = `query Party($partyId: ID!, $start: Int, $limit: Int){
   party(id: $partyId) {
     data{
       id
@@ -40,16 +40,16 @@ const getPictures = async (id, start, limit) => {
       }
     }
   }
-}`;
-  const res = await strapi.post('/graphql', {
-    query,
-    variables: {
-      partyId: id,
-      start,
-      limit,
-    },
-  });
-  return res.data.data.party.data;
-};
+}`
+    const res = await strapi.post('/graphql', {
+        query,
+        variables: {
+            partyId: id,
+            start,
+            limit,
+        },
+    })
+    return res.data.data.party.data
+}
 
-export { getParties, getPictures };
+export { getParties, getPictures }

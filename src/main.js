@@ -1,19 +1,19 @@
-import { createApp } from 'vue';
-import './index.css';
-import './outfit.css';
-import './bootstrap-icons.css';
-import { createRouter, createWebHistory } from 'vue-router';
-import App from './App.vue';
-import routes from '~pages';
+import { createApp } from 'vue'
+import './index.css'
+import './outfit.css'
+import './bootstrap-icons.css'
+import { createRouter, createWebHistory } from 'vue-router'
+import App from './App.vue'
+import routes from '~pages'
 
-import { i18n } from './i18n';
+import { i18n } from './i18n'
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
-});
+    history: createWebHistory(),
+    routes,
+})
 
-const app = createApp(App);
-app.use(router);
-app.use(i18n);
-app.mount('#app');
+const app = createApp(App)
+app.use(router)
+app.use(i18n)
+app.mount('#app')
