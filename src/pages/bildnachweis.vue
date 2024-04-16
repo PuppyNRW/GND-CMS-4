@@ -1,13 +1,6 @@
 <script setup>
 const photos = [
     {
-        name: 'Spezialeinheit mit Gasmaske (schwarz)',
-        link: '/images/rubbergimp002.webp',
-        creator: 'Duze',
-        profile: 'https://www.instagram.com/duzepup/',
-        date: '2022-08-27',
-    },
-    {
         name: 'SUMBRELLA Corp. Einheit mit Visier',
         link: '/images/umbrella.webp',
         creator: 'Pup Nyx',
