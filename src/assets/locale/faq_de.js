@@ -11,16 +11,55 @@ Bitte beachte mögliche kurzfristige Änderungen aufgrund gesetzlicher Bestimmun
     },
     {
         question: 'Wo kannst Du Tickets erwerben?',
-        answer: "Tickets gibt's nur in unserem Ticketshop. Es gibt keine Abendkasse.",
+        answer: `Tickets gibt's nur in unserem Ticketshop.Es gibt keine Abendkasse.Link: <a href="https://shop.pupplay.nrw/" > https: //shop.pupplay.nrw/</a>`,
     },
     {
         question: 'Wann startet der reguläre Vorverkauf?',
-        answer: 'Der Vorverkauf beginnt in der Regel sechs Wochen vor dem Veranstaltungstag, sonntags um 18 Uhr. Restkontingente, falls vorhanden, werden eine Woche vorher ebenfalls sonntags um 18 Uhr verfügbar.',
+        answer: 'Der Vorverkauf beginnt in der Regel sechs Wochen vor dem Veranstaltungstag, sonntags um 18 Uhr. Der Termin wird über den Telegarm-Kanal bekanntgegeben. Link: <a href="https://t.me/gearndance">https://t.me/gearndance</a>',
     },
     {
         question:
-            'Wie viele Tickets kannst Du kaufen und welche Bedingungen gelten?',
-        answer: 'Im regulären Vorverkauf kannst Du maximal drei Tickets pro Bestellung kaufen, im Restkontingentverkauf maximal zwei. Die Tickets sind personalisiert; beim Kauf musst Du den Namen des Ticketinhabers angeben. Beim Eintritt wird der Ausweis kontrolliert. Tickets können auf Anfrage umgeschrieben, aber nicht erstattet werden.',
+            'Welche Bedingungen gelten beim Ticketkauf / Umschreibung / Stornierung? ',
+        answer: `
+     <ul class="list-disc space-y-4">
+            <li class="font-semibold text-lg">Ticketkauf:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Im regulären Vorverkauf kannst Du maximal drei Tickets pro Bestellung kaufen.</li>
+                    <li>Über die Warteliste kannst Du maximal ein Ticket kaufen.</li>
+                    <li>Alle Tickets sind personalisiert; beim Kauf musst Du den Namen des Ticketinhabers angeben.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Einlasskontrolle:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Beim Eintritt wird der Ausweis kontrolliert, um die Identität des Ticketinhabers zu bestätigen.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Stornierung und Umschreibung:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Tickets können gegen eine Gebühr auf eine andere Person umgeschrieben werden.</li>
+                    <li>Stornierungen sind gegen Gebühr bis maximal zwei Wochen vor der Veranstaltung möglich.</li>
+                    <li>Andere Erstattungen sind ausgeschlossen.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Wiedereintritt:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Es wird ein zweimaliger Wiedereintritt gewährt.</li>
+                    <li>Dazu wird auf dem Verzehrbändchen des Eloria eine Markierung vorgenommen.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Gebühren (Stand 18.05.2024):
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Umschreibung: 5 € pro Bestellung</li>
+                    <li>Stornierung: 2,50 € pro Ticket</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Fragen zur Bestellung?
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>E-Mail bitte mit der Bestellnummer an: <a href="mailto:tickets@puppy.nrw" class="text-blue-500 underline">tickets@puppy.nrw</a></li>
+                </ul>
+            </li>
+        </ul>
+        `,
     },
     {
         question: 'Mit welchen Zahlungsmitteln kannst Du die Tickets erwerben?',
@@ -36,13 +75,13 @@ Bitte beachte mögliche kurzfristige Änderungen aufgrund gesetzlicher Bestimmun
     },
     {
         question: 'Wie viele Dancefloors hat die Gear’n’Dance?',
-        answer: `Wir bieten zwei Dancefloors mit verschiedenen Musikrichtungen:
+        answer: `Wir bieten bis zu zwei Dancefloors mit verschiedenen Musikrichtungen an:
         ● Main-Floor
 ● Rave Cave`,
     },
     {
         question: 'Gibt es Specials oder Entertainment?',
-        answer: 'Ein Bällebad und eine #mykinkyfamily Lounge sind immer mit dabei. Weitere Specials werden über unsere Kanäle bekannt gegeben.',
+        answer: 'Ein Bällebad und eine #mykinkyfamily Lounge sind immer mit dabei. Weitere Specials werden über unsere Social Media Kanäle bekannt gegeben.',
     },
     {
         question: 'Gibt es Umkleidemöglichkeiten?',
@@ -99,7 +138,7 @@ Bitte beachte mögliche kurzfristige Änderungen aufgrund gesetzlicher Bestimmun
     },
     {
         question: 'Darf man bei euch Cannabis konsumieren?',
-        answer: 'Derzeit ist der Konsum von Cannabis während der Veranstaltung nicht gestattet.',
+        answer: 'Der Konsum von Cannabis während der Veranstaltung auf dem gesamten Gelände des Elorias ist nicht gestattet.',
     },
 ]
 

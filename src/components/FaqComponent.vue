@@ -64,9 +64,10 @@ updateFAQ()
         as="dd"
         class="mt-2 pr-12"
       >
-        <p class="text-base leading-7 text-white">
-          {{ faq.answer }}
-        </p>
+        <p
+          class="text-base leading-7 text-white"
+          v-html="faq.answer"
+        />
       </DisclosurePanel>
     </Disclosure>
   </dl>

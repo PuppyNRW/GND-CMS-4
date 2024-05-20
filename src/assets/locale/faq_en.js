@@ -1,106 +1,144 @@
-const faqEN = [
-    {
-        question: "When and where does Gear'n'Dance take place?",
-        answer: `Gear'n'Dance takes place at the ELORIA Experience Factory, Knappenstraße 36, 46238 Bottrop. Here are the preliminary dates for 2024:
-● January 6, 2024
-● April 13, 2024
-● July 6, 2024
-● October 12, 2024
-Please note possible short-term changes due to legal requirements or organizational reasons. Always check for any changes.`,
+const faqEN = [{
+        question: 'When and where does the Gear’n’Dance take place?',
+        answer: `The Gear’n’Dance takes place at the ELORIA Erlebnisfabrik, Knappenstraße 36, 46238 Bottrop.
+Here are the provisional dates for 2024:
+● 06.01.2024
+● 13.04.2024
+● 06.07.2024
+● 12.10.2024
+Please note that there may be short-term changes due to legal requirements or organizational reasons. Always stay informed about any changes.`,
     },
     {
         question: 'Where can you purchase tickets?',
-        answer: 'Tickets are only available in our ticket shop. There is no box office.',
+        answer: `Tickets are only available in our ticket shop. There are no tickets available at the door. Link: <a href="https://shop.pupplay.nrw/" > https://shop.pupplay.nrw/</a>`,
     },
     {
-        question: 'When does regular presale start?',
-        answer: 'Presale typically begins six weeks before the event day, on Sundays at 6 pm. Remaining tickets, if available, will also be available one week prior, also on Sundays at 6 pm.',
+        question: 'When does the regular pre-sale start?',
+        answer: 'Pre-sale usually starts six weeks before the event date, on Sundays at 6 PM. The date is announced via the Telegram channel. Link: <a href="https://t.me/gearndance">https://t.me/gearndance</a>',
     },
     {
-        question:
-            'How many tickets can you purchase and what are the conditions?',
-        answer: 'In regular presale, you can buy a maximum of three tickets per order, and in the remaining ticket sale, a maximum of two. Tickets are personalized; you must provide the name of the ticket holder at the time of purchase. ID will be checked upon entry. Tickets can be transferred upon request but are non-refundable.',
+        question: 'What are the conditions for ticket purchase / transfer / cancellation?',
+        answer: `
+     <ul class="list-disc space-y-4">
+            <li class="font-semibold text-lg">Ticket purchase:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>In the regular pre-sale, you can buy a maximum of three tickets per order.</li>
+                    <li>Via the waiting list, you can buy a maximum of one ticket.</li>
+                    <li>All tickets are personalized; you must provide the name of the ticket holder when purchasing.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Entry control:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Upon entry, the ID will be checked to confirm the identity of the ticket holder.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Cancellation and transfer:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Tickets can be transferred to another person for a fee.</li>
+                    <li>Cancellations are possible for a fee up to two weeks before the event.</li>
+                    <li>Other refunds are excluded.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Re-entry:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Two-time re-entry is allowed.</li>
+                    <li>A mark will be made on the Eloria wristband for this purpose.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Fees (as of 18.05.2024):
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Transfer: 5 € per order</li>
+                    <li>Cancellation: 2.50 € per ticket</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Questions about the order?
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Please send an email with the order number to: <a href="mailto:tickets@puppy.nrw" class="text-blue-500 underline">tickets@puppy.nrw</a></li>
+                </ul>
+            </li>
+        </ul>
+        `,
     },
     {
         question: 'What payment methods can you use to purchase tickets?',
-        answer: 'Payment is exclusively through PayPal.',
+        answer: 'Payment is only made via PayPal.',
     },
     {
-        question:
-            'Does the ticket need to be in paper form or digital as a PDF?',
-        answer: 'Both are acceptable, but for environmental reasons, we recommend the digital option.',
+        question: 'Does the ticket need to be in paper form or digital as a PDF?',
+        answer: 'Both are possible, but we recommend the digital version for environmental reasons.',
     },
     {
-        question: 'Credit-Consumption Card / Postpaid of Eloria',
-        answer: 'Payment for drinks and snacks is done through a bracelet with a QR code. Upon entry, you will receive a bracelet with a credit amount (see notice), which you must settle upon leaving the location. Lost bracelets, see notice. The gastronomic offerings and billing are solely handled by ELORIA GmbH.',
+        question: 'Credit consumption card / Postpaid of Eloria',
+        answer: 'Payment for drinks and snacks is made via a wristband with a QR code. Upon entry, you will receive a wristband with a credit amount (see notice), which you must pay when leaving the location. For lost wristbands, see notice. The catering offer and billing are exclusively managed by ELORIA GmbH.',
     },
     {
-        question: "How many dance floors does Gear'n'Dance have?",
-        answer: `We offer two dance floors with different music styles:
-● Main Floor
-● Rave Cave`,
+        question: 'How many dance floors does Gear’n’Dance have?',
+        answer: `We offer up to two dance floors with different music genres:
+        ● Main Floor
+        ● Rave Cave`,
     },
     {
         question: 'Are there any specials or entertainment?',
-        answer: 'A ball pit and a #mykinkyfamily lounge are always included. Further specials will be announced through our channels.',
+        answer: 'A ball pit and a #mykinkyfamily lounge are always included. Further specials will be announced through our social media channels.',
     },
     {
-        question: 'Are there dressing facilities?',
-        answer: 'Yes, we offer dressing facilities.',
+        question: 'Are there changing facilities?',
+        answer: 'Yes, we offer changing facilities.',
     },
     {
-        question: 'Is there a cloakroom, and how can you use it?',
-        answer: 'Yes, we have a cloakroom and luggage storage. Please note that there are different entrances. Upon entry, you will receive a cloakroom tag if booked.',
+        question: 'Is there a cloakroom and how can you use it?',
+        answer: 'Yes, we have a cloakroom and luggage check. Please note that there are different entrances. Upon entry, you will receive a cloakroom tag if booked.',
     },
     {
         question: 'Is there a dress code?',
-        answer: 'We ask you to present yourself in your irresistible kinky outfit, but to be covered in the front. For all military, police, and SWAT fans: wearing protected uniforms, emblems, and insignia is prohibited and done at your own risk. Carrying weapon imitations is not allowed.',
+        answer: 'We ask you to present yourself in your irresistible kinky outfit, but be covered in the front. For all military, police, and SWAT fans: Wearing protected uniforms, insignia, and official badges is prohibited and is at your own risk in case of doubt. Carrying weapon imitations is not allowed.',
     },
     {
-        question:
-            'Is there an Awareness Team on-site, and how do you recognize team members?',
-        answer: 'Yes, our Awareness Team is on-site and can be identified by violet lanyards.',
+        question: 'Is there an awareness team on-site and how can you recognize the team members?',
+        answer: 'Yes, our awareness team is on-site and can be recognized by purple lanyards.',
     },
     {
         question: 'What is the Safe Space concept?',
-        answer: 'The Safe Space concept is provided by the association Puppy & Friends NRW. Please observe the color-coded wristband identifications and approach a team member or the Safe Space information stand if needed.',
+        answer: 'The Safe Space concept is offered by the association Puppy & Friends NRW. Please note the colored wristband markings and contact a team member or the Safe Space info stand if needed.',
     },
     {
         question: 'ID check at the entrance',
-        answer: "Entry is only permitted for persons aged 18 and above. Your official ID will be checked for verification. Please remove your mask or helmet for age verification. Entry will not be granted without age verification. Copies of IDs, driver's licenses, health cards, or similar are not valid.",
+        answer: 'Admission is only allowed for persons aged 18 and over. To verify this, your official ID card will be checked. Please remove your mask or helmet for this. Without age verification, no entry is possible. Copies of ID cards, driver’s licenses, health cards, or similar are not valid.',
     },
     {
-        question: 'How does entry work?',
-        answer: 'Upon entry, you must have your ID and ticket ready. Entry starts at 9 pm through two entrances: the main entrance leads directly to the main hall, while the south entrance is accessible for those who want to use the dressing room and cloakroom immediately. Cloakroom access for all usually begins around 11 pm.',
+        question: 'How does the entry process work?',
+        answer: 'At entry, you must have your ID and ticket ready. Entry begins at 9 PM through two entrances: The main entrance leads directly to the large hall, while the south entrance is accessible for those who want to use the changing room and cloakroom immediately. From about 11 PM, the cloakroom is accessible to everyone.',
     },
     {
-        question: 'On-site parking',
-        answer: 'The parking lot at Eloria is typically full around 9 pm. Please use designated parking areas in the vicinity and observe parking restrictions and private properties.',
+        question: 'Parking on-site',
+        answer: 'The parking lot at Eloria is usually full around 9 PM. Please use only designated parking areas in the vicinity and observe parking prohibitions and private property.',
     },
     {
         question: 'Are sexual acts allowed?',
-        answer: "Please refrain from any, especially open, sexual acts at the event. We don't mind if sneakers and boots are inspected consensually, if someone is led on a leash or tied up.",
+        answer: 'Please refrain from any, especially open, sexual acts at the event. We have no objection if sneakers and boots are consensually admired, someone is led on a leash, or tied up.',
     },
     {
         question: 'Prohibited items including weapon imitations',
-        answer: 'It is prohibited to carry weapons, easily flammable materials, fireworks, drugs, or alcoholic beverages. Carrying (firearm) weapon imitations, airsoft, knives, batons, or similar is not allowed. Bag checks by security personnel are possible.',
+        answer: 'It is prohibited to bring weapons, highly flammable materials, fireworks, drugs, or alcoholic beverages. Carrying (firearm) imitations, airsoft guns, knives, batons, or similar items is not allowed. Bag checks by security are possible.',
     },
     {
         question: 'Photo and video recordings',
-        answer: 'Photography and filming will take place during the event. Photo and video material will be used for public relations purposes (publication in print media, internet, or social media). For personal selfies/pictures (solely with your phone), please use designated photo areas and ensure no one is recognizable in the background. Please respect the red "no photos" buttons (available at the Puppy & Friends NRW e.V. information stand).',
+        answer: 'Photos and videos will be taken during the event. The photo and video material will be used for public relations purposes (publication in print media, internet, or social media). For your own selfies/pictures (only with a mobile phone), it is best to use designated photo areas and make sure that no one is recognizable in the background. Please respect the red "no photos" buttons (available at the Puppy & Friends NRW e.V. info stand).',
     },
     {
         question: 'Lost & Found',
-        answer: 'Lost items will be collected during the event. For lost or found items, please contact the cloakroom directly.',
+        answer: 'Lost items are collected during the event. For lost or found items, please contact the cloakroom directly.',
     },
     {
-        question: 'Accessibility information',
-        answer: 'There is an accompanied entry that can be pre-registered via a Telegram link. Eloria has an elevator to the upper level with a bar and dance floor to facilitate access for people with sight, hearing, mobility impairments, and similar. Accessible toilets are available.',
+        question: 'Info on accessibility',
+        answer: 'There is accompanied entry, which can be registered in advance via a Telegram link. Eloria has an elevator to the upper level with a bar and dance floor to facilitate access for people with visual, hearing, mobility impairments, and similar. Accessible toilets are available.',
     },
     {
-        question: 'Is it allowed to consume cannabis at your event?',
-        answer: 'Currently, the consumption of cannabis is not permitted during the event.',
+        question: 'Is cannabis consumption allowed?',
+        answer: 'The consumption of cannabis during the event on the entire grounds of Eloria is not permitted.',
     },
 ]
 
-export { faqEN }
+export {
+    faqEN
+}
