@@ -13,33 +13,25 @@ const { t } = useI18n()
         to="/impressum"
         class="mx-2"
       >
-        {{
-          t('footer.imprint')
-        }}
+        {{ t('footer.imprint') }}
       </router-link>
       <router-link
         to="/datenschutz"
         class="mx-2"
       >
-        {{
-          t('footer.privacy')
-        }}
+        {{ t('footer.privacy') }}
       </router-link>
       <router-link
         to="/haftung"
         class="mx-2"
       >
-        {{
-          t('footer.liability')
-        }}
+        {{ t('footer.liability') }}
       </router-link>
       <router-link
         to="/bildnachweis"
         class="mx-2"
       >
-        {{
-          t('footer.credit')
-        }}
+        {{ t('footer.credit') }}
       </router-link>
     </div>
     <div class="text-white text-sm text-center pb-3">

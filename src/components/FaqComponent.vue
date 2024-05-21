@@ -1,16 +1,20 @@
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/vue/24/outline'
-import { ref, watch } from 'vue'
+import { ref, watch, onMounted, nextTick } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 
 import { faqDE } from '../assets/locale/faq_de'
 import { faqEN } from '../assets/locale/faq_en'
 import { faqNL } from '../assets/locale/faq_nl'
 
 const { locale } = useI18n()
+const route = useRoute()
 
 const faqs = ref([])
+const openTag = ref(null)
+const disclosureRefs = ref({})
 
 const updateFAQ = () => {
     if (locale.value === 'en') {
@@ -22,9 +26,31 @@ const updateFAQ = () => {
     }
 }
 
-watch(locale, updateFAQ)
+const openFAQFromHash = () => {
+    const hash = route.hash.replace('#', '')
+    if (hash) {
+        openTag.value = hash
+        nextTick(() => {
+            if (disclosureRefs.value[hash]) {
+                disclosureRefs.value[hash].$el.click()
+            }
+        })
+    }
+}
+
+watch(locale, () => {
+    updateFAQ()
+    openFAQFromHash()
+})
+
+watch(route, () => {
+    openFAQFromHash()
+})
 
 updateFAQ()
+onMounted(() => {
+    openFAQFromHash()
+})
 </script>
 
 <template>
@@ -41,11 +67,13 @@ updateFAQ()
     >
       <dt>
         <DisclosureButton
+          :ref="(el) => (disclosureRefs[faq.tag] = el)"
           class="flex w-full items-start justify-between text-left text-white"
         >
-          <span class="text-base font-semibold leading-7">{{
-            faq.question
-          }}</span>
+          <span
+            :id="faq.tag"
+            class="text-base font-semibold leading-7"
+          >{{ faq.question }}</span>
           <span class="ml-6 flex h-7 items-center">
             <PlusSmallIcon
               v-if="!open"

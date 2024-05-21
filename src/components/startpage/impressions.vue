@@ -30,9 +30,7 @@ const { t } = useI18n()
               to="/photowall"
               class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded hover:bg-gray-400"
             >
-              {{
-                t('index.impressions.buttonWall')
-              }}
+              {{ t('index.impressions.buttonWall') }}
             </router-link>
           </div>
           <div class="flex flex-col md:w-1/3 mb-4">
