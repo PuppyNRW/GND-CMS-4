@@ -17,7 +17,7 @@
         "@vueuse/components": "^10.9.0",
         "@vueuse/core": "^10.9.0",
         "@vueuse/head": "^2.0.0",
-        "axios": "^1.7.1",
+        "axios": "^1.7.2",
         "daisyui": "^4.11.1",
         "ics": "^3.7.2",
         "luxon": "^3.4.4",
