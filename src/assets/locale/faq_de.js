@@ -29,13 +29,10 @@ Bitte beachte mögliche kurzfristige Änderungen aufgrund gesetzlicher Bestimmun
             <li class="font-semibold text-lg">Ticketkauf:
                 <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
                     <li>Im regulären Vorverkauf kannst Du maximal drei Tickets pro Bestellung kaufen.</li>
-                    <li>Über die Warteliste kannst Du maximal ein Ticket kaufen.</li>
-                    <li>Alle Tickets sind personalisiert; beim Kauf musst Du den Namen des Ticketinhabers angeben.</li>
-                </ul>
-            </li>
-            <li class="font-semibold text-lg">Einlasskontrolle:
-                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
-                    <li>Beim Eintritt wird der Ausweis kontrolliert, um die Identität des Ticketinhabers zu bestätigen.</li>
+                    <li>Alle Tickets sind personalisiert; beim Kauf musst Du den Namen des Ticketinhabers angeben, wie er im Personalausweis steht.</li>
+                    <li>Über die Warteliste kannst Du Dich für maximal 1 Ticket registrieren.</li>
+                    <li>Bei der Warteliste musst Du Deine E-Mail-Adresse und Deinen Realnamen angeben.</li>
+                    <li>Mehrfachanmeldungen auf der Warteliste sind unzulässig.</li>
                 </ul>
             </li>
             <li class="font-semibold text-lg">Stornierung und Umschreibung:
@@ -45,16 +42,22 @@ Bitte beachte mögliche kurzfristige Änderungen aufgrund gesetzlicher Bestimmun
                     <li>Andere Erstattungen sind ausgeschlossen.</li>
                 </ul>
             </li>
+            <li class="font-semibold text-lg">Gebühren (Stand 18.05.2024):
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Namens-Umschreibung: 5 € pro Bestellung</li>
+                    <li>Stornierung: 2,50 € pro Bestellung; Es kann nur die gesamte Bestellung storniert werden.</li>
+                </ul>
+            </li>
+            <li class="font-semibold text-lg">Einlasskontrolle:
+                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
+                    <li>Beim Eintritt wird der Ausweis kontrolliert, um die Identität des Ticketinhabers zu bestätigen.</li>
+                    <li>Stimmen Name auf dem Ticket und Ausweis nicht überein, kann dir der Einlass verweigert werden.</li>
+                </ul>
+            </li>
             <li class="font-semibold text-lg">Wiedereintritt:
                 <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
                     <li>Es wird ein zweimaliger Wiedereintritt gewährt.</li>
                     <li>Dazu wird auf dem Verzehrbändchen des Eloria eine Markierung vorgenommen.</li>
-                </ul>
-            </li>
-            <li class="font-semibold text-lg">Gebühren (Stand 18.05.2024):
-                <ul class="list-disc list-inside space-y-2 ml-6 text-base font-normal">
-                    <li>Umschreibung: 5 € pro Bestellung</li>
-                    <li>Stornierung: 2,50 € pro Ticket</li>
                 </ul>
             </li>
             <li class="font-semibold text-lg">Fragen zur Bestellung?
