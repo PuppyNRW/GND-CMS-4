@@ -78,7 +78,7 @@ export const de = {
         representative2: 'Chris Hendrik Käding  (2. Vorsitzender)',
         representative3: 'Jörn André Klatt (Kassenwart)',
         register: 'Registereintrag: Amtsgricht Düsseldorf VR 12157',
-        tax: 'Steuer-ID: 106/5754/1949',
+        tax: 'Steuer-ID: 106/5754/1949 Umsatzsteuer ID: DE367631275',
         content1:
             'Die Veranstaltung findet statt in Kooperation mit der Eloria GmbH, Chausseestr. 52, 10115 Berlin Ort der Veranstaltung ist die ELORIA Erlebnisfabrik, Knappenstraße 36, 46238 Bottrop',
         content2:

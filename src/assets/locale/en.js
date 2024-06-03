@@ -76,7 +76,7 @@ export const en = {
         representative2: 'Chris Hendrik Käding (2nd chairman)',
         representative3: 'Jörn André Klatt (Treasurer)',
         register: 'Register entry: Amtsgricht Düsseldorf VR 12157',
-        tax: 'Tax ID: 106/5754/1949',
+        tax: 'Tax ID: 106/5754/1949 Umsatzsteuer ID: DE367631275',
         content1:
             'The event takes place in cooperation with Eloria GmbH, Chausseestr. 52, 10115 Berlin.The place of the event is the ELORIA Erlebnisfabrik, Knappenstraße 36, 46238 Bottrop',
         content2:
