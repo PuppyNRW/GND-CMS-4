@@ -69,10 +69,10 @@ export const de = {
     },
     impressum: {
         title: 'Impressum',
-        subtitle: 'Angaben gemäß § 5 TMG',
+        subtitle: 'Angaben gemäß § 5 DDG',
         addressTitle: 'Ort der Veranstaltung:',
         responsible:
-            'Verantwortlicher im Sinne des Telemediengesetzes (TMG §5):',
+            'Verantwortlicher im Sinne des Telemediengesetzes (DDG §5):',
         represent: 'Vertreten durch den Vorstand:',
         representative1: 'Jannik Wuttke (1. Vorsitzender)',
         representative2: 'Chris Hendrik Käding  (2. Vorsitzender)',

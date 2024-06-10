@@ -1,3 +1,9 @@
+<script setup>
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+</script>
+
 <template>
   <div class="pt-28 mx-4 md:mx-8 leading-6 prose prose-lg prose-invert">
     <h1>Datenschutz&shy;erkl&auml;rung</h1>
@@ -139,10 +145,11 @@
       Johannes-Weyer-Stra&szlig;e 1<br>
       40225 D&uuml;sseldorf<br>
       <br>
-      Vertreten durch:<br>
-      Marvin Markner (1. Vorsitzender)<br>
-      J&ouml;rn Andr&eacute; Klatt (2. Vorsitzender)<br>
-      Holger Osterhoff (Kassenwart)
+      <ul class="list-disc ml-8">
+      <li>{{ t('impressum.representative1') }}</li>
+      <li>{{ t('impressum.representative2') }}</li>
+      <li>{{ t('impressum.representative3') }}</li>
+    </ul>
     </p>
 
     <p>

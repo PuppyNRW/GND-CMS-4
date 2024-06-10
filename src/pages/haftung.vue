@@ -7,9 +7,9 @@
       Alle Inhalte unseres Internetauftritts wurden mit Sorgfalt und nach
       bestem Gewissen erstellt. Eine Gewähr für die Aktualität,
       Vollständigkeit und Richtigkeit sämtlicher Seiten kann jedoch nicht
-      übernommen werden. Gemäß § 7 Abs. 1 TMG sind wir als Dienstanbieter
+      übernommen werden. Gemäß § 7 Abs. 1 DDG sind wir als Dienstanbieter
       für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
-      verantwortlich, nach den §§ 8 bis 10 TMG jedoch nicht verpflichtet,
+      verantwortlich, nach den §§ 8 bis 10 DDG jedoch nicht verpflichtet,
       die übermittelten oder gespeicherten fremden Informationen zu
       überwachen. Eine umgehende Entfernung dieser Inhalte erfolgt ab dem
       Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung und wir

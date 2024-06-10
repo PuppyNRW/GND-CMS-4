@@ -70,10 +70,10 @@ export const nl = {
 
         impressum: {
             title: 'Colofon',
-            subtitle: 'Volgens § 5 TMG',
+            subtitle: 'Volgens § 5 DDG',
             addressTitle: 'Evenementlocatie:',
             responsible:
-                'Verantwoordelijk in de zin van de Telemediawet (TMG §5):',
+                'Verantwoordelijk in de zin van de Telemediawet (DDG §5):',
             represent: 'Vertegenwoordigd door het Bestuur:',
             representative1: 'Jannik Wuttke (1e voorzitter)',
             representative2: 'Chris Hendrik Käding  (2e voorzitter)',

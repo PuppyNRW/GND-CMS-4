@@ -68,9 +68,9 @@ export const en = {
     },
     impressum: {
         title: 'Imprint',
-        subtitle: 'According to § 5 TMG',
+        subtitle: 'According to § 5 DDG',
         addressTitle: 'Event location:',
-        responsible: 'Responsible in the sense of the Telemedia Act (TMG §5):',
+        responsible: 'Responsible in the sense of the Telemedia Act (DDG §5):',
         represent: 'Represented by the Executive Board::',
         representative1: 'Jannik Wuttke (1st chairman)',
         representative2: 'Chris Hendrik Käding (2nd chairman)',
