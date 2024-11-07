@@ -72,7 +72,7 @@ export const en = {
         addressTitle: 'Event location:',
         responsible: 'Responsible in the sense of the Telemedia Act (DDG §5):',
         represent: 'Represented by the Executive Board::',
-        representative1: 'Jannik Wuttke (1st chairman)',
+        representative1: 'Marvin Markner (1st chairman)',
         representative2: 'Chris Hendrik Käding (2nd chairman)',
         representative3: 'Jörn André Klatt (Treasurer)',
         register: 'Register entry: Amtsgricht Düsseldorf VR 12157',

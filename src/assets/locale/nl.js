@@ -75,7 +75,7 @@ export const nl = {
             responsible:
                 'Verantwoordelijk in de zin van de Telemediawet (DDG §5):',
             represent: 'Vertegenwoordigd door het Bestuur:',
-            representative1: 'Jannik Wuttke (1e voorzitter)',
+            representative1: 'Marvin Markner (1e voorzitter)',
             representative2: 'Chris Hendrik Käding  (2e voorzitter)',
             representative3: 'Jörn André Klatt (Penningmeester)',
             register: 'Registervermelding: Amtsgricht Düsseldorf VR 12157',

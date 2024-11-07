@@ -74,7 +74,7 @@ export const de = {
         responsible:
             'Verantwortlicher im Sinne des Digitale-Dienste-Gesetz (DDG §5):',
         represent: 'Vertreten durch den Vorstand:',
-        representative1: 'Jannik Wuttke (1. Vorsitzender)',
+        representative1: 'Marvin Markner (1. Vorsitzender)',
         representative2: 'Chris Hendrik Käding  (2. Vorsitzender)',
         representative3: 'Jörn André Klatt (Kassenwart)',
         register: 'Registereintrag: Amtsgricht Düsseldorf VR 12157',
