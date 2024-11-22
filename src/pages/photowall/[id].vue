@@ -11,7 +11,7 @@ const partyId = route.params.id
 const pics = ref([])
 const photosCount = ref(0)
 const start = ref(0)
-const currentPagePics = ref([]) // Store pictures for the current page
+const currentPagePics = ref(null) // Store pictures for the current page
 const limit = 10
 const fetchLimit = 10000
 
@@ -58,6 +58,13 @@ onMounted(async () => {
 </script>
 
 <template>
+    <div
+        v-if="!currentPagePics"
+        class="pt-28 mx-4 md:mx-8 flex flex-col z-10 mx-auto"
+    >
+        loading...
+        <span class="loading loading-spinner loading-lg" />
+    </div>
     <div
         v-if="currentPagePics"
         :key="currentPagePics"

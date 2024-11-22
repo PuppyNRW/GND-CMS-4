@@ -35,6 +35,10 @@ onMounted(async () => {
             {{ t('photowall.text') }}
         </p>
         <div class="flex flex-col md:flex-row flex-wrap">
+            <div v-if="!parties.length">
+                loading...
+                <span class="loading loading-spinner loading-lg" />
+            </div>
             <div
                 v-for="party in parties"
                 :key="party.id"
