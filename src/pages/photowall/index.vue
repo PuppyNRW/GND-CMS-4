@@ -24,40 +24,38 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <div class="pt-28 mx-4 md:mx-8 flex flex-col z-10">
-    <h1 class="gndH1">
-      {{ t('photowall.title') }}
-    </h1>
-    <h2 class="text-3xl">
-      {{ t('photowall.subtitle') }}
-    </h2>
-    <p class="text-lg">
-      {{ t('photowall.text') }}
-    </p>
-    <div class="flex flex-col md:flex-row flex-wrap">
-      <div
-        v-for="party in parties"
-        :key="party.id"
-        class="w-full md:w-1/4 p-2"
-      >
-        <router-link
-          class="cursor-pointer"
-          :to="`/photowall/${party.id}`"
-        >
-          <div class="m-2">
-            <img
-              class="h-20 mx-auto"
-              src="/public/gfx/folder.png"
-              alt="Folder"
+    <div class="pt-28 mx-4 md:mx-8 flex flex-col z-10">
+        <h1 class="gndH1">
+            {{ t('photowall.title') }}
+        </h1>
+        <h2 class="text-3xl">
+            {{ t('photowall.subtitle') }}
+        </h2>
+        <p class="text-lg">
+            {{ t('photowall.text') }}
+        </p>
+        <div class="flex flex-col md:flex-row flex-wrap">
+            <div
+                v-for="party in parties"
+                :key="party.id"
+                class="w-full md:w-1/4 p-2"
             >
-            <p class="text-lg text-primary text-center">
-              {{ party.attributes.Title }} ({{
-                party.attributes.Creator
-              }})
-            </p>
-          </div>
-        </router-link>
-      </div>
+                <router-link
+                    class="cursor-pointer"
+                    :to="`/photowall/${party.documentId}`"
+                >
+                    <div class="m-2">
+                        <img
+                            class="h-20 mx-auto"
+                            src="/public/gfx/folder.png"
+                            alt="Folder"
+                        />
+                        <p class="text-lg text-primary text-center">
+                            {{ party.Title }} ({{ party.Creator }})
+                        </p>
+                    </div>
+                </router-link>
+            </div>
+        </div>
     </div>
-  </div>
 </template>

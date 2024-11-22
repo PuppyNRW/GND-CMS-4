@@ -1,55 +1,59 @@
 import { strapi } from './http.common'
 
 const getParties = async () => {
-    const query = `query parties {
-  parties(pagination: { pageSize: 200 }){
-    data {
-      id
-      attributes {
-        Title
+    const query = `query Party {
+    parties {
         Date
+        PhotosCount
         Creator
-      }
+        Title
+        documentId
     }
-  }
-}`
+}
+`
 
     const res = await strapi.post('/graphql', {
         query,
     })
-    return res.data.data.parties.data
+    // console.log(`res: ${JSON.stringify(res.data.data.parties)}`)
+    return res.data.data.parties
 }
 
 const getPictures = async (id, start, limit) => {
-    const query = `query Party($partyId: ID!, $start: Int, $limit: Int){
-  party(id: $partyId) {
-    data{
-      id
-      attributes{
-        Creator
-        Date
-        PhotosCount
-        Photos(pagination:{start: $start, limit: $limit}) {
-          data {
-            attributes {
-              url
-              formats
+    const query = `
+    query Party($id: ID!, $start: Int!, $limit: Int!) {
+        party(documentId: $id) {
+            documentId
+            Title
+            Creator
+            Date
+            PhotosCount
+            Photos(pagination: { start: $start, limit: $limit }) {
+                documentId
+                url
+                formats
             }
-          }
         }
-      }
+    }`
+
+    const variables = { id, start, limit }
+
+    try {
+        const res = await strapi.post('/graphql', {
+            query,
+            variables,
+        })
+
+        if (res.data.errors) {
+            console.error('GraphQL Errors:', res.data.errors)
+            throw new Error('GraphQL query failed')
+        }
+
+        return res.data.data.party
+    } catch (error) {
+        console.error('Error fetching pictures:', error)
+        throw error
     }
-  }
-}`
-    const res = await strapi.post('/graphql', {
-        query,
-        variables: {
-            partyId: id,
-            start,
-            limit,
-        },
-    })
-    return res.data.data.party.data
 }
 
 export { getParties, getPictures }
