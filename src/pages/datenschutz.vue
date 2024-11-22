@@ -146,10 +146,10 @@ const { t } = useI18n()
       40225 D&uuml;sseldorf<br>
       <br>
       <ul class="list-disc ml-8">
-      <li>{{ t('impressum.representative1') }}</li>
-      <li>{{ t('impressum.representative2') }}</li>
-      <li>{{ t('impressum.representative3') }}</li>
-    </ul>
+        <li>{{ t('impressum.representative1') }}</li>
+        <li>{{ t('impressum.representative2') }}</li>
+        <li>{{ t('impressum.representative3') }}</li>
+      </ul>
     </p>
 
     <p>
