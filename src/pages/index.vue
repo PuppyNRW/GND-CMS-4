@@ -13,11 +13,11 @@ import Impressions from '../components/startpage/impressions.vue'
 </script>
 
 <template>
-  <Header />
-  <Dancefloor />
-  <Prices />
-  <Dates />
-  <Impressions />
+    <Header />
+    <Dancefloor />
+    <Prices />
+    <Dates />
+    <Impressions />
 </template>
 
 <style></style>

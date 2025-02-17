@@ -34,8 +34,8 @@ docker-compose up
 
 ### Recommended IDE Setup
 
--   VS Code + Volar
--   Add the following to your settings.json to enable autofix on save:
+- VS Code + Volar
+- Add the following to your settings.json to enable autofix on save:
 
 ```json
 "editor.codeActionsOnSave": {
