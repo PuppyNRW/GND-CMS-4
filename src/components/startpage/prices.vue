@@ -41,7 +41,7 @@ const { t, n } = useI18n()
         </p>
         <router-link
           to="/tickets"
-          class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded hover:bg-gray-400"
+          class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded-sm hover:bg-gray-400"
         >
           {{ t('index.prices.buyButton') }}
         </router-link>

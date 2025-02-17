@@ -42,7 +42,7 @@ const downloadICS = () => {
             <a
                 href="https://upload.puppy.nrw/"
                 target="_blank"
-                class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded hover:bg-gray-400"
+                class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded-sm hover:bg-gray-400"
                 >{{ t('index.header.upload') }}</a
             >
         </div>
@@ -52,7 +52,7 @@ const downloadICS = () => {
                     {{ $t('index.header.subtitle') }}
                 </p>
                 <div
-                    class="bg-white md:w-1/2 text-center text-black flex flex-col rounded relative"
+                    class="bg-white md:w-1/2 text-center text-black flex flex-col rounded-sm relative"
                 >
                     <p>{{ $t('index.header.nextEvent') }}</p>
                     <h2 v-if="nextEvent" class="font-bold text-3xl">

@@ -28,7 +28,7 @@ const { t } = useI18n()
             >
             <router-link
               to="/photowall"
-              class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded hover:bg-gray-400"
+              class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded-sm hover:bg-gray-400"
             >
               {{ t('index.impressions.buttonWall') }}
             </router-link>
@@ -42,7 +42,7 @@ const { t } = useI18n()
             <a
               href="https://www.youtube.com/channel/UCVdBYMUXGfPZgRkd2W8jG2w"
               target="_blank"
-              class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded hover:bg-gray-400"
+              class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded-sm hover:bg-gray-400"
             >{{ t('index.impressions.buttonYoutube') }}</a>
           </div>
           <div class="flex flex-col md:w-1/3 mb-4">
@@ -54,7 +54,7 @@ const { t } = useI18n()
             <a
               href="https://www.inqueery.de/fotos?title=gear%27n%27dance&field_partyid_nid=All&stadt=&radius=0&datum%5Bvalue%5D%5Bmonth%5D=&datum%5Bvalue%5D%5Byear%5D="
               target="_blank"
-              class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded hover:bg-gray-400"
+              class="text-xl cursor-pointer text-primary mx-auto border border-gray-400 p-3 rounded-sm hover:bg-gray-400"
             >{{ t('index.impressions.buttonInqueery') }}</a>
           </div>
         </div>

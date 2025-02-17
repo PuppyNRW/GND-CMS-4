@@ -91,7 +91,7 @@ onMounted(async () => {
                         :style="{
                             transform: `rotate(${getRandomRotation()}deg)`,
                         }"
-                        class="mx-auto w-full h-auto rounded"
+                        class="mx-auto w-full h-auto rounded-sm"
                         :src="`https://strapi.puppy.nrw${pic.formats.small.url ? pic.formats.small.url : pic.url}`"
                         alt="Folder"
                     />
@@ -101,7 +101,7 @@ onMounted(async () => {
 
         <div class="flex justify-center items-center my-4">
             <button
-                class="px-4 py-2 mr-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                class="px-4 py-2 mr-2 bg-blue-500 text-white rounded-sm hover:bg-blue-600"
                 @click="prevPage"
             >
                 {{ t('photowall.prev') }}
@@ -112,7 +112,7 @@ onMounted(async () => {
                 }}</span
             >
             <button
-                class="px-4 py-2 ml-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                class="px-4 py-2 ml-2 bg-blue-500 text-white rounded-sm hover:bg-blue-600"
                 @click="nextPage"
             >
                 {{ t('photowall.next') }}
